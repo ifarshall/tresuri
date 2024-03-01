@@ -315,6 +315,27 @@
             
         });
 
+        $('.menu-carousel').owlCarousel({
+            loop: true,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 5,
+                    margin: 20
+                },
+                600: {
+                    items: 5,
+                    margin: 10
+                },
+                1000: {
+                    items:5,
+                    margin:0
+                }
+            },
+            autoplay: false,
+        });
+        
+
 
         /* ==================================================
             Preloader Init

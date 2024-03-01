@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1006 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-4972,-551)">
+        <g transform="matrix(1.62961,0,0,1.75322,-2950.67,16)">
+            <g id="Search-Bar" serif:id="Search Bar" transform="matrix(1.71066,0,0,2.36253,-3615.9,-415.125)">
+                <path d="M5293.17,305.545C5299.11,305.545 5304.82,307.135 5309.02,309.965C5313.22,312.794 5315.59,316.632 5315.59,320.634C5315.59,320.634 5315.59,320.634 5315.59,320.634C5315.59,324.636 5313.22,328.474 5309.02,331.304C5304.82,334.134 5299.11,335.724 5293.17,335.724L4979.29,335.724C4973.34,335.724 4967.64,334.134 4963.44,331.304C4959.23,328.474 4956.87,324.636 4956.87,320.634L4956.87,320.634C4956.87,316.632 4959.23,312.794 4963.44,309.965C4967.64,307.135 4973.34,305.545 4979.29,305.545L5293.17,305.545Z" style="fill:rgb(246,247,248);stroke:rgb(169,190,202);stroke-width:1.42px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

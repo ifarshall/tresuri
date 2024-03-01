@@ -405,7 +405,7 @@ input {
 .btn {
   display: inline-block;
   font-family: "Poppins",sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 25px;
   text-transform: uppercase;
   -webkit-transition: all 0.35s ease-in-out;
