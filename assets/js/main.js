@@ -12,6 +12,9 @@
     $(document).on('ready', function() {
 
 
+        
+        
+
         /* ==================================================
             # Wow Init
          ===============================================*/
@@ -315,9 +318,50 @@
             
         });
 
+        const items = [
+            { filter: ".nasi", imgSrc: "assets/img/icon/Nasi.svg", text: "Nasi" },
+            { filter: ".kuah", imgSrc: "assets/img/icon/Bakmi & Soto.svg", text: "Berkuah" },
+            { filter: ".sayur", imgSrc: "assets/img/icon/Sayuran.svg", text: "Sayuran" },
+            { filter: ".snack", imgSrc: "assets/img/icon/Snack.svg", text: "Snack" },
+            { filter: ".ayam", imgSrc: "assets/img/icon/Snack.svg", text: "Ayam" },
+            { filter: ".ikan", imgSrc: "assets/img/icon/Snack.svg", text: "Ikan" },
+            { filter: ".daging", imgSrc: "assets/img/icon/Snack.svg", text: "Daging" },
+            { filter: ".gorengan", imgSrc: "assets/img/icon/Snack.svg", text: "Gorengan" },
+            { filter: ".minuman", imgSrc: "assets/img/icon/Minuman.svg", text: "Minuman" },
+            { filter: ".kopi", imgSrc: "assets/img/icon/Minuman.svg", text: "Kopi" }
+        ];
+        
+        // Ambil elemen menu-carousel
+        const menuCarousel = document.getElementById("menu-carousel");
+        
+        // Loop melalui setiap item dan buat elemen <a> dengan atribut yang sesuai
+        items.forEach(item => {
+            const link = document.createElement("a");
+            link.href = "#";
+            link.classList.add("item");
+            link.setAttribute("data-filter", item.filter);
+            
+            const img = document.createElement("img");
+            img.src = item.imgSrc;
+            img.style.height = "fit-content";
+            img.style.maxHeight = "100px";
+            img.alt = "Image";
+            img.height = 100;
+        
+            const div = document.createElement("div");
+            div.classList.add("text-center");
+            div.style.fontSize = "smaller";
+            div.textContent = item.text;
+        
+            link.appendChild(img);
+            link.appendChild(div);
+            
+            menuCarousel.appendChild(link);
+        });
+
         $('.menu-carousel').owlCarousel({
             loop: true,
-            dots: true,
+            dots: false,
             responsive: {
                 0: {
                     items: 5,
@@ -334,6 +378,7 @@
             },
             autoplay: false,
         });
+
         
 
 

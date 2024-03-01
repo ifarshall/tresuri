@@ -402,6 +402,18 @@ input {
   padding-bottom: 65px;
 }
 
+@media (min-width: 768px) {
+  .menu-carousel .item {
+      height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-carousel .item {
+      height: 80px;
+  }
+}
+
 .btn {
   display: inline-block;
   font-family: "Poppins",sans-serif;
