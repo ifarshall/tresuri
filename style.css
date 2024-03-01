@@ -1141,6 +1141,34 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   animation-delay: .9s;
 }
 
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease forwards;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}
+
 /* Carousel Fade Effect */
 .carousel-fade .carousel-inner .item {
   -webkit-transition-property: opacity;
@@ -2106,7 +2134,7 @@ img.highlight-food {
   -webkit-border-radius: 30px !important;
   -moz-border-radius: 30px !important;
   border-radius: 30px !important;
-  border: 3px solid #e7e7e7;
+  border: 1px solid #e7e7e7;
   padding-left: 20px;
 }
 
@@ -2624,7 +2652,7 @@ img.highlight-food {
 }
 
 .mix-item-menu button.active {
-  color: #23578B;
+  color:#23578B;
   position: relative;
   z-index: 1;
 }
@@ -4456,7 +4484,7 @@ footer.pattern::before {
   content: "";
   height: 100%;
   width: 100%;
-  background: url(assets/img/pattern.png);
+  background: url(assets/img/pattern.svg);
 }
 
 footer .f-items {
@@ -4684,7 +4712,7 @@ footer .item-center li {
 }
 
 footer .item-center > ul li i {
-  color: #23578B;
+  color: #fff;
   font-size: 30px;
   margin-right: 10px;
   float: left;

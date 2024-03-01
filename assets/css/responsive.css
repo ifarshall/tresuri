@@ -688,7 +688,7 @@
     padding-bottom: 35px;
   }
 
-  .mix-item-menu {
+  /* .mix-item-menu {
     border: none;
     padding: 0;
     margin-bottom: 20px;
@@ -699,11 +699,16 @@
     border: 1px solid #e7e7e7;
     margin: 5px;
     background: #ffffff;
-  }
+  } */
 
-  .mix-item-menu button.active::after {
+  /* .mix-item-menu button.active {
+    background-color: #23578B;
+    color:#fff;
+  } */
+
+  /* .mix-item-menu button.active::after {
     display: none;
-  }
+  } */
 
   .food-menu-area.inc-isotop {
     padding-bottom: 35px;

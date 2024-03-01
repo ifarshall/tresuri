@@ -9,7 +9,7 @@
 (function($) {
     "use strict";
 
-    $(document).on('ready', function() {
+    $(document).on('ready', async function() {
 
 
         
@@ -92,6 +92,57 @@
         $('.player').mb_YTPlayer();
 
 
+        // Data filter untuk setiap kategori
+        const filters = [
+            { name: "Semua Menu", class: "*" },
+            { name: "Nasi", class: ".nasi" },
+            { name: "Berkuah", class: ".berkuah" },
+            { name: "Sayuran", class: ".sayuran" },
+            { name: "Snack", class: ".snack" },
+            { name: "Ayam", class: ".ayam" },
+            { name: "Ikan", class: ".ikan" },
+            { name: "Daging", class: ".daging" },
+            { name: "Gorengan", class: ".gorengan" },
+            { name: "Minuman", class: ".minuman" },
+            { name: "Kopi", class: ".kopi" },
+        ];
+
+        // Ambil elemen menu
+        const mixItemMenu = document.getElementById("mixItemMenu");
+
+        // Loop melalui setiap filter dan buat tombol
+        filters.forEach(filter => {
+            const button = document.createElement("button");
+            button.textContent = filter.name;
+            button.setAttribute("data-filter", filter.class);
+            mixItemMenu.appendChild(button);
+        })
+
+        const firstButton = mixItemMenu.querySelector('button');
+        if (firstButton) {
+            firstButton.classList.add("active");
+        }
+
+        $('.menu-carousel').owlCarousel({
+            loop: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 2,
+                    margin: 20
+                },
+                600: {
+                    items: 5,
+                    margin: 10
+                },
+                1000: {
+                    items:6,
+                    margin:0
+                }
+            },
+            autoplay: false,
+        });
+
         /* ==================================================
             # imagesLoaded active
         ===============================================*/
@@ -105,11 +156,15 @@
                 });
             });
 
-            /* filter menu active class  */
-            $('.mix-item-menu button').on('click', function(event) {
-                $(this).siblings('.active').removeClass('active');
-                $(this).addClass('active');
-                event.preventDefault();
+            const buttons = document.querySelectorAll(".mix-item-menu .owl-stage button");
+            buttons.forEach(function(button) {
+                button.addEventListener("click", function() {
+                    buttons.forEach(function(btn) {
+                        btn.classList.remove("active");
+                    });
+
+                    this.classList.add("active");
+                });
             });
 
             /* Filter active */
@@ -318,66 +373,65 @@
             
         });
 
-        const items = [
-            { filter: ".nasi", imgSrc: "assets/img/icon/Nasi.svg", text: "Nasi" },
-            { filter: ".kuah", imgSrc: "assets/img/icon/Bakmi & Soto.svg", text: "Berkuah" },
-            { filter: ".sayur", imgSrc: "assets/img/icon/Sayuran.svg", text: "Sayuran" },
-            { filter: ".snack", imgSrc: "assets/img/icon/Snack.svg", text: "Snack" },
-            { filter: ".ayam", imgSrc: "assets/img/icon/033-fried chicken.svg", text: "Ayam" },
-            { filter: ".ikan", imgSrc: "assets/img/icon/071-tom yum.svg", text: "Ikan" },
-            { filter: ".daging", imgSrc: "assets/img/icon/023-curry.svg", text: "Daging" },
-            { filter: ".gorengan", imgSrc: "assets/img/icon/028-empanada.svg", text: "Gorengan" },
-            { filter: ".minuman", imgSrc: "assets/img/icon/Minuman.svg", text: "Minuman" },
-            { filter: ".kopi", imgSrc: "assets/img/icon/001-afternoon tea.svg", text: "Kopi" }
-        ];
+        // const items = [
+        //     { filter: ".nasi", imgSrc: "assets/img/icon/Nasi.svg", text: "Nasi" },
+        //     { filter: ".kuah", imgSrc: "assets/img/icon/Bakmi & Soto.svg", text: "Berkuah" },
+        //     { filter: ".sayur", imgSrc: "assets/img/icon/Sayuran.svg", text: "Sayuran" },
+        //     { filter: ".snack", imgSrc: "assets/img/icon/Snack.svg", text: "Snack" },
+        //     { filter: ".ayam", imgSrc: "assets/img/icon/033-fried chicken.svg", text: "Ayam" },
+        //     { filter: ".ikan", imgSrc: "assets/img/icon/071-tom yum.svg", text: "Ikan" },
+        //     { filter: ".daging", imgSrc: "assets/img/icon/023-curry.svg", text: "Daging" },
+        //     { filter: ".gorengan", imgSrc: "assets/img/icon/028-empanada.svg", text: "Gorengan" },
+        //     { filter: ".minuman", imgSrc: "assets/img/icon/Minuman.svg", text: "Minuman" },
+        //     { filter: ".kopi", imgSrc: "assets/img/icon/001-afternoon tea.svg", text: "Kopi" }
+        // ];
         
-        // Ambil elemen menu-carousel
-        const menuCarousel = document.getElementById("menu-carousel");
-        
-        // Loop melalui setiap item dan buat elemen <a> dengan atribut yang sesuai
-        items.forEach(item => {
-            const link = document.createElement("a");
-            link.href = "#";
-            link.classList.add("item");
-            link.setAttribute("data-filter", item.filter);
+        // const menuCarousel = document.getElementById("menu-carousel");
+        // items.forEach(item => {
+        //     const link = document.createElement("a");
+        //     link.href = "#";
+        //     link.classList.add("item");
+        //     link.setAttribute("data-filter", item.filter);
             
-            const img = document.createElement("img");
-            img.src = item.imgSrc;
-            img.style.height = "fit-content";
-            img.style.maxHeight = "100px";
-            img.alt = "Image";
-            img.height = 100;
+        //     const img = document.createElement("img");
+        //     img.src = item.imgSrc;
+        //     img.style.height = "fit-content";
+        //     img.style.maxHeight = "100px";
+        //     img.alt = "Image";
+        //     img.height = 100;
         
-            const div = document.createElement("div");
-            div.classList.add("text-center");
-            div.style.fontSize = "smaller";
-            div.textContent = item.text;
+        //     const div = document.createElement("div");
+        //     div.classList.add("text-center");
+        //     div.style.fontSize = "smaller";
+        //     div.textContent = item.text;
         
-            link.appendChild(img);
-            link.appendChild(div);
+        //     link.appendChild(img);
+        //     link.appendChild(div);
             
-            menuCarousel.appendChild(link);
-        });
+        //     menuCarousel.appendChild(link);
+        // });
 
-        $('.menu-carousel').owlCarousel({
-            loop: true,
-            dots: false,
-            responsive: {
-                0: {
-                    items: 5,
-                    margin: 20
-                },
-                600: {
-                    items: 5,
-                    margin: 10
-                },
-                1000: {
-                    items:5,
-                    margin:0
-                }
-            },
-            autoplay: false,
-        });
+
+
+        // let isOpenMenu = false;
+        // const buttonMenu = document.getElementById("allMenu");
+        // buttonMenu.addEventListener("click",(e)=>{
+        //     e.preventDefault();
+        //     if(isOpenMenu){
+        //         isOpenMenu = false;
+        //         buttonMenu.textContent = "Lihat Semua";
+        //         menuCarousel.classList.add("fade-in");
+        //         menuCarousel.classList.remove("fade-out");
+        //         menuCarousel.classList.remove("hidden");
+        //     } else {
+        //         isOpenMenu = true;
+        //         buttonMenu.textContent = "Tutup";
+        //         menuCarousel.classList.remove("fade-in");
+        //         menuCarousel.classList.add("fade-out");
+        //         menuCarousel.classList.add("hidden");
+        //     }
+            
+        // })
 
         
 
