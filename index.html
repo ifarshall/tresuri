@@ -44,15 +44,25 @@
 <body>
 
     <!-- Preloader Start -->
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
     <!-- Preloader Ends -->
+
+    <div id="preloader" class="loading">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="round_spinner">
+            <div class="spinner"></div>
+            <img class="mx-auto" src="assets/img/logo-konsep.png" alt="" />
+            </div>
+        </div>
+    </div>
 
     <!-- Header 
     ============================================= -->
     <header id="home">
 
         <!-- Start Navigation -->
-        <nav class="hidden-sm hidden-xs navbar navbar-default fixed-border navbar-fixed white no-background bootsnav brand-center center-side">
+        <nav
+            class="hidden-sm hidden-xs navbar navbar-default fixed-border navbar-fixed white no-background bootsnav brand-center center-side">
 
             <div class="container">
 
@@ -73,22 +83,16 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav" data-in="#" data-out="#">
                         <li>
-                            <a class="smooth-menu" href="#home">Home</a>
+                            <a class="smooth-menu" href="#home">Beranda</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="#popular-dishes">Popular Dishes</a>
+                            <a class="smooth-menu" href="#popular-dishes">Hidangan Populer</a>
                         </li>
                         <li>
                             <a class="smooth-menu" href="#menu">Menu</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="#gallery">Gallery</a>
-                        </li>
-                        <li>
-                            <a class="smooth-menu" href="#review">Review</a>
-                        </li>
-                        <li>
-                            <a class="smooth-menu" href="#blog">Blog</a>
+                            <a class="smooth-menu" href="#blog">Tenant</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -100,7 +104,9 @@
                 <div class="widget">
                     <h4 class="title">About Us</h4>
                     <p>
-                        Arrived compass prepare an on as. Reasonable particular on my it in sympathize. Size now easy eat hand how. Unwilling he departure elsewhere dejection at. Heart large seems may purse means few blind.
+                        Arrived compass prepare an on as. Reasonable particular on my it in sympathize. Size now easy
+                        eat hand how. Unwilling he departure elsewhere dejection at. Heart large seems may purse means
+                        few blind.
                     </p>
                 </div>
                 <div class="widget">
@@ -126,32 +132,32 @@
 
         </nav>
         <!-- End Navigation -->
-
     </header>
     <!-- End Header -->
 
     <!-- Start Banner 
-    ============================================= -->
+        ============================================= -->
     <div class="banner-area ds-fonts text-light text-center">
-        <div id="bootcarousel" class="carousel slide animate_text" data-ride="carousel">
+        <div class="banner-style">
+            <div class="image-wrapper">
+                <img alt="banner-food" src="assets/img/testsvgmakanan.svg" class="highlight-food">
+            </div>
             <!-- Wrapper for slides -->
-            <div class="carousel-inner heading-uppercase text-dark" style="background-color: #016938;">
-                <div class="item active bg-cover" style="background-image: url(assets/img/background.png);">
+            <img alt="banner-logo" src="assets/img/logo-full.png" height="100" class="hidden-lg hidden-md" style="z-index:1;">
+            <div class="banner-pantun-carousel owl-carousel owl-theme pt-20">
+                <div class="item active bg-cover">
                     <div class="box-table shadow">
                         <div class="box-cell">
-                            <div class="container pt-lg-100">
-                                <div class="row">
-                                    <div class="col-md-8 col-md-offset-2">
+                            <div class="container">
+                                <div class="row d-flex" style="justify-content: center;">
+                                    <div class="col-md-8">
                                         <div class="content">
-                                            <img data-animation="animated fadeInUp" class="hidden-lg" src="assets/img/logo-full.png" height="100">
-                                            <!-- <h1 data-animation="animated fadeInDown">Awesome delicious food</h1> -->
-                                            <h3 data-animation="animated slideInUp">
+                                            <h3 data-animation="animated">
                                                 Tomat dan ragi dimakan itik<br>
                                                 Dibuat jamu harganya naik<br>
                                                 Selamat sarapan dinda yang cantik<br>
                                                 Semoga harimu berjalan baik
                                             </h3>
-                                            <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -159,19 +165,19 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="item bg-cover" style="background-image: url(assets/img/2440x1578.png);">
-                    <div class="box-table shadow dark">
+                <div class="item bg-cover">
+                    <div class="box-table shadow">
                         <div class="box-cell">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-md-8 col-md-offset-2">
+                                <div class="row d-flex" style="justify-content: center;">
+                                    <div class="col-md-8">
                                         <div class="content">
-                                            <h2 data-animation="animated fadeInUp">Pizza</h2>
-                                            <h1 data-animation="animated fadeInDown">Awesome delicious food</h1>
-                                            <p data-animation="animated slideInUp">
-                                                Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in. Be on easily cannot innate in lasted months on. Differed and and felicity steepest mrs age outweigh.
-                                            </p>
-                                            <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Order Now</a>
+                                            <h3 data-animation="animated">
+                                                Tomat dan ragi dimakan itik<br>
+                                                Dibuat jamu harganya naik<br>
+                                                Selamat sarapan dinda yang cantik<br>
+                                                Semoga harimu berjalan baik
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -179,38 +185,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="item bg-cover" style="background-image: url(assets/img/2440x1578.png);">
-                    <div class="box-table shadow dark">
-                        <div class="box-cell">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-8 col-md-offset-2">
-                                        <div class="content">
-                                            <h2 data-animation="animated fadeInUp">Sandwich</h2>
-                                            <h1 data-animation="animated fadeInDown">Awesome delicious food</h1>
-                                            <p data-animation="animated slideInUp">
-                                                Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in. Be on easily cannot innate in lasted months on. Differed and and felicity steepest mrs age outweigh.
-                                            </p>
-                                            <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Order Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
             <!-- End Wrapper for slides -->
 
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#bootcarousel" data-slide="prev">
-                <i class="fa fa-angle-left"></i>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#bootcarousel" data-slide="next">
-                <i class="fa fa-angle-right"></i>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
         <!-- Shape -->
         <div class="wavesshape">
@@ -245,8 +222,9 @@
                         </p>
                         <form action="#">
                             <div class="input-group">
-                                <input type="email" placeholder="Enter your e-mail here" class="form-control" name="email">
-                                <button type="submit"><i class="fa fa-paper-plane"></i></button>  
+                                <input type="email" placeholder="Enter your e-mail here" class="form-control"
+                                    name="email">
+                                <button type="submit"><i class="fa fa-paper-plane"></i></button>
                             </div>
                         </form>
                     </div>
@@ -266,7 +244,8 @@
                         <h3>Discorver</h3>
                         <h2>Our specials</h2>
                         <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
@@ -288,7 +267,8 @@
                                 <h4><a href="#">Crispy Crust Pizzeria</a></h4>
                                 <span>Mutton / Olive Oil / Salt</span>
                                 <p>
-                                    Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                    Considered introduced themselves mr to discretion at. Means among saw hopes for.
+                                    Death mirth in oh learn he equal on.
                                 </p>
                                 <div class="button">
                                     <a href="#">Order Now</a>
@@ -310,7 +290,8 @@
                                 <h4><a href="#">Luger Burger</a></h4>
                                 <span>Beef / Olive Oil / Salt</span>
                                 <p>
-                                    Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                    Considered introduced themselves mr to discretion at. Means among saw hopes for.
+                                    Death mirth in oh learn he equal on.
                                 </p>
                                 <div class="button">
                                     <a href="#">Order Now</a>
@@ -332,7 +313,8 @@
                                 <h4><a href="#">Fries McDonald's</a></h4>
                                 <span>Chicken / Olive Oil / Salt</span>
                                 <p>
-                                    Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                    Considered introduced themselves mr to discretion at. Means among saw hopes for.
+                                    Death mirth in oh learn he equal on.
                                 </p>
                                 <div class="button">
                                     <a href="#">Order Now</a>
@@ -354,7 +336,8 @@
                                 <h4><a href="#">Chicken Popeyes</a></h4>
                                 <span>Mutton / Olive Oil / Salt</span>
                                 <p>
-                                    Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                    Considered introduced themselves mr to discretion at. Means among saw hopes for.
+                                    Death mirth in oh learn he equal on.
                                 </p>
                                 <div class="button">
                                     <a href="#">Order Now</a>
@@ -379,7 +362,8 @@
                         <h3>Discorver</h3>
                         <h2>Our Menu</h2>
                         <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
@@ -411,7 +395,8 @@
                                         <div class="info">
                                             <h4><a href="#">Crispy Crust Pizzeria</a></h4>
                                             <p>
-                                                Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                                Considered introduced themselves mr to discretion at. Means among saw
+                                                hopes for. Death mirth in oh learn he equal on.
                                             </p>
                                             <span>Mutton / Olive Oil / Salt</span>
                                         </div>
@@ -430,7 +415,8 @@
                                         <div class="info">
                                             <h4><a href="#">Luger Burger</a></h4>
                                             <p>
-                                                Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                                Considered introduced themselves mr to discretion at. Means among saw
+                                                hopes for. Death mirth in oh learn he equal on.
                                             </p>
                                             <span>Beef / Olive Oil / Salt</span>
                                         </div>
@@ -449,7 +435,8 @@
                                         <div class="info">
                                             <h4><a href="#">Fries McDonald's</a></h4>
                                             <p>
-                                                Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                                Considered introduced themselves mr to discretion at. Means among saw
+                                                hopes for. Death mirth in oh learn he equal on.
                                             </p>
                                             <span>Chicken / Olive Oil / Salt</span>
                                         </div>
@@ -468,7 +455,8 @@
                                         <div class="info">
                                             <h4><a href="#">Chicken Popeyes</a></h4>
                                             <p>
-                                                Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                                Considered introduced themselves mr to discretion at. Means among saw
+                                                hopes for. Death mirth in oh learn he equal on.
                                             </p>
                                             <span>Beef / Olive Oil / Salt</span>
                                         </div>
@@ -487,7 +475,8 @@
                                         <div class="info">
                                             <h4><a href="#">Chicken Sandwich</a></h4>
                                             <p>
-                                                Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                                Considered introduced themselves mr to discretion at. Means among saw
+                                                hopes for. Death mirth in oh learn he equal on.
                                             </p>
                                             <span>Chicken / Olive Oil / Salt</span>
                                         </div>
@@ -506,7 +495,8 @@
                                         <div class="info">
                                             <h4><a href="#">Salmon Steak</a></h4>
                                             <p>
-                                                Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on.
+                                                Considered introduced themselves mr to discretion at. Means among saw
+                                                hopes for. Death mirth in oh learn he equal on.
                                             </p>
                                             <span>Beef / Olive Oil / Salt</span>
                                         </div>
@@ -540,12 +530,14 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                            <input class="form-control" id="name" name="name" placeholder="Name"
+                                                type="text">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" id="email" name="email" placeholder="Email" type="email">
+                                            <input class="form-control" id="email" name="email" placeholder="Email"
+                                                type="email">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -560,7 +552,8 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" id="date" name="date" placeholder="Date" type="text">
+                                            <input class="form-control" id="date" name="date" placeholder="Date"
+                                                type="text">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -589,7 +582,8 @@
                         <h3>Gallery</h3>
                         <h2>Our Environment</h2>
                         <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
@@ -602,7 +596,8 @@
                             <div class="pf-item">
                                 <div class="item-effect">
                                     <img src="assets/img/800x800.png" alt="Thumb">
-                                    <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                    <a href="assets/img/800x800.png" class="item popup-link"><i
+                                            class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                             <!-- End Single Item -->
@@ -610,7 +605,8 @@
                             <div class="pf-item">
                                 <div class="item-effect">
                                     <img src="assets/img/800x800.png" alt="Thumb">
-                                    <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                    <a href="assets/img/800x800.png" class="item popup-link"><i
+                                            class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                             <!-- End Single Item -->
@@ -618,7 +614,8 @@
                             <div class="pf-item">
                                 <div class="item-effect">
                                     <img src="assets/img/800x800.png" alt="Thumb">
-                                    <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                    <a href="assets/img/800x800.png" class="item popup-link"><i
+                                            class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                             <!-- End Single Item -->
@@ -626,7 +623,8 @@
                             <div class="pf-item">
                                 <div class="item-effect">
                                     <img src="assets/img/800x800.png" alt="Thumb">
-                                    <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                    <a href="assets/img/800x800.png" class="item popup-link"><i
+                                            class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                             <!-- End Single Item -->
@@ -634,7 +632,8 @@
                             <div class="pf-item">
                                 <div class="item-effect">
                                     <img src="assets/img/800x800.png" alt="Thumb">
-                                    <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                    <a href="assets/img/800x800.png" class="item popup-link"><i
+                                            class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                             <!-- End Single Item -->
@@ -642,7 +641,8 @@
                             <div class="pf-item">
                                 <div class="item-effect">
                                     <img src="assets/img/800x800.png" alt="Thumb">
-                                    <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-plus"></i></a>
+                                    <a href="assets/img/800x800.png" class="item popup-link"><i
+                                            class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                             <!-- End Single Item -->
@@ -664,7 +664,8 @@
                         <h3>Reviews</h3>
                         <h2>Testimonials</h2>
                         <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
@@ -676,7 +677,8 @@
                         <div class="item">
                             <h4>Delicious Burger</h4>
                             <p>
-                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial demands settled entered in do to colonel. 
+                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read.
+                                Anxious cordial demands settled entered in do to colonel.
                             </p>
                             <div class="thumb">
                                 <img src="assets/img/100x100.png" alt="Thumb">
@@ -698,7 +700,8 @@
                         <div class="item">
                             <h4>Awesome pizza</h4>
                             <p>
-                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial demands settled entered in do to colonel. 
+                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read.
+                                Anxious cordial demands settled entered in do to colonel.
                             </p>
                             <div class="thumb">
                                 <img src="assets/img/100x100.png" alt="Thumb">
@@ -720,7 +723,8 @@
                         <div class="item">
                             <h4>Delicious Burger</h4>
                             <p>
-                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial demands settled entered in do to colonel. 
+                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read.
+                                Anxious cordial demands settled entered in do to colonel.
                             </p>
                             <div class="thumb">
                                 <img src="assets/img/100x100.png" alt="Thumb">
@@ -755,7 +759,8 @@
                         <h3>Blog</h3>
                         <h2>Latest News</h2>
                         <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
+                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
+                            examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
@@ -789,7 +794,9 @@
                                     <a href="#">Possession so comparison inquietude he conviction </a>
                                 </h3>
                                 <p>
-                                    Arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration. 
+                                    Arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar
+                                    chatty simple months turned oh at change of. Astonished set expression solicitude
+                                    way admiration.
                                 </p>
                                 <a class="btn circle btn-theme border btn-md" href="#">Read More</a>
                             </div>
@@ -821,7 +828,8 @@
                                     <a href="#">stimulated cultivated projection possession</a>
                                 </h4>
                                 <p>
-                                    Arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of.
+                                    Arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar
+                                    chatty simple months turned oh at change of.
                                 </p>
                             </div>
                         </div>
@@ -848,7 +856,8 @@
                                     <a href="#">Difficulty on insensible reasonable in</a>
                                 </h4>
                                 <p>
-                                    Arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. 
+                                    Arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar
+                                    chatty simple months turned oh at change of.
                                 </p>
                             </div>
                         </div>
@@ -943,6 +952,7 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/modernizr.custom.13711.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
@@ -953,4 +963,5 @@
     <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>

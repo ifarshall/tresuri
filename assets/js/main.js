@@ -303,13 +303,29 @@
             }
         });
 
+        /* ==================================================
+            # Banner Carousel
+         ===============================================*/
+         $('.banner-pantun-carousel').owlCarousel({
+            loop: true,
+            navigation:true,
+            dots: true,
+            items: 1,
+            autoplay: true,
+            
+        });
+
 
         /* ==================================================
             Preloader Init
          ===============================================*/
-        $(window).on('load', function() {
-            // Animate loader off screen
-            $(".se-pre-con").fadeOut("slow");;
+        // $('#preloader').addClass('loading');
+        $(window).on('load', function () {
+            setTimeout(function () {
+            $('#preloader').fadeOut(500, function () {
+                $('#preloader').removeClass('loading');
+            });
+            }, 500);
         });
 
 

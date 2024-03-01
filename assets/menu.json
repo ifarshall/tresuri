@@ -1,0 +1,2066 @@
+﻿{
+    "data": [
+        {
+            "id": 1,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Chicken Steak Original",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 35000
+        },
+        {
+            "id": 2,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Chicken Steak Crispy",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 30000
+        },
+        {
+            "id": 3,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Teriyaki Ricebowl",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 4,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Nasi Tempong",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 5,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Sop Iga",
+            "kategori": [
+                "Daging",
+                "Kuah"
+            ],
+            "harga": 35000
+        },
+        {
+            "id": 6,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Indomie",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 7,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Mix Platter",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 8,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Roti Bakar",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 9,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Es Markisa",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 10,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Melon Lemonade",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 11,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Es Teh Manis",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 12,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Es Teh Sereh",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": 13,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Es SelaD (Selasih Nata de Coco)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": 14,
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "menu": "Kopi Instan",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": 15,
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "menu": "Paket Nasi Gurame (Asam Manis / Goreng, Kerupuk)",
+            "kategori": [
+                "Nasi",
+                "Ikan"
+            ],
+            "harga": 35000
+        },
+        {
+            "id": 16,
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "menu": "Paket Nasi Ayam (Serundeng / Bakar, Tempe, Kerupuk)",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 17,
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "menu": "Nasi Bakar isi (Ayam/Cakalang, Telur, Tempe Orek, Kerupuk)",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 18,
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "menu": "Paket Nasi Paru (Serundeng / Cabe Ijo, Tahu, Tempe, Kerupuk)",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 19,
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "menu": "Paket Nila Sambal Gami (Nila Goreng, Tempe, Kerupuk)",
+            "kategori": [
+                "Nasi",
+                "Ikan"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 20,
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "menu": "Paket Nasi Sroto Sokaraja (Tempe Mendoan, Kerupuk)",
+            "kategori": [
+                "Nasi",
+                "Kuah"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 21,
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "menu": "Seblak Kuah",
+            "kategori": [
+                "Kuah"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 22,
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "menu": "Tongseng Paruh + Nasi",
+            "kategori": [
+                "Kuah",
+                "Nasi"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 23,
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "menu": "Soto Banjar + Nasi/Lontong",
+            "kategori": [
+                "Kuah",
+                "Nasi"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 24,
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "menu": "Nasi Bebek",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 25,
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "menu": "Tongseng Ayam + Nasi",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 26,
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "menu": "Indomie",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 13000
+        },
+        {
+            "id": 27,
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "menu": "Jeruk (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": 28,
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "menu": "Teh Manis",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 29,
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "menu": "Air Mineral",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 30,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Pangsit Goreng Ayam",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 31,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Nasi Liwet, Ayam, Tahu/Tempe",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 32,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Nasi Ulam, Gorengan, Bihun, Tempe Orek, Kerupuk",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 33,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Soto Mie Bakso + Nasi",
+            "kategori": [
+                "Kuah",
+                "Nasi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 34,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Rebusan (Ubi, Jagung, Singkong, Pisang)",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 35,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Gorengan",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 3000
+        },
+        {
+            "id": 36,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Pie Brownies Mini",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 37,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Pudding Coklat Cup",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 38,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Brownis Lumer",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 7000
+        },
+        {
+            "id": 39,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Risol Mayo",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 40,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Bihun Goreng Sambal Kacang",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 41,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Mie Goreng Sambal Kacang",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 42,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Keripik Singkong Pedas Manis",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 8000
+        },
+        {
+            "id": 43,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Macaroni Bumbu Halus",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 8000
+        },
+        {
+            "id": 44,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Bajigur",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 45,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Es Ocha Yakult",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": 46,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Es Jeruk Peras",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 8000
+        },
+        {
+            "id": 47,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Es Sirup Marjan Susu Selasih",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": 48,
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "menu": "Asinan Buah",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": 49,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mie Sedap Korean Cheese Buldak (Mie Goreng, Sosis, Bakso, Gyoza)",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 50,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mie Sedap Korean Spicy Chicken (Mie Goreng, Sosis, Bakso, Gyoza) ",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 51,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mie Sedap Spicy Soup (Mie Kuah, Crab Stick, Fish Cake, Gyoza)",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 52,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mie Sedap Singapore Spicy Laksa (Mie Kuah, Crab Stick, Fish Cake, Gyoza)",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 53,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Dimsum",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 54,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Gyoza",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 55,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Siomay Ikan Tengiri",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 56,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Cilok",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 57,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Kopi Susu Aren (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 58,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Kopi Hitam Aren",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 59,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Americano Full Arabica (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 60,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Cappucino",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 61,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Coffee Latte",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 62,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Kopi Pandan Latte",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 63,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Kopi Kelapa",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 64,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Matcha Latte",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 65,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Thai Tea",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 66,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Chocolate",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 67,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Lychee Tea",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 68,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Flavor Latte",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 69,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Lychee Yakult",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 70,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Cincau Hijau Organik (Plain)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 71,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Cincau Hijau Organik Fresh Milk",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 72,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Immune Booster - Coco Green (Air Kelapa Ijo) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 73,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Immune Booster - Coco Green (Air Kelapa Ijo) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 74,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Immune Booster - Coco Honelo (Air Kelapa, Madu, Air Lemon, Kiamboy) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 75,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Immune Booster - Coco Honelo (Air Kelapa, Madu, Air Lemon, Kiamboy) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 76,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Immune Booster - Coco Buttepe (Air Kelapa, Bunga Telang) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 77,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Immune Booster - Coco Buttepe (Air Kelapa, Bunga Telang) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 78,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Immune Booster - Coco Calico (Air Kelapa, Bunga Rosella, Buah Kundur) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 79,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Immune Booster - Coco Calico (Air Kelapa, Bunga Rosella, Buah Kundur) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 80,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Sunkist - Strawberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 81,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Sunkist - Strawberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 82,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Lemon - Strawberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 83,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Lemon - Strawberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 84,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Kiwi - Strawberry - 550ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 85,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Kiwi - Strawberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 86,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Longan - Kietna - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 87,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Longan - Kietna - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 88,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Pomegranate - Lime - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 89,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Pomegranate - Lime - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 90,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Apple - Cinnamon - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 91,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Apple - Cinnamon - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 92,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Blueberry - Raspberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 93,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Blueberry - Raspberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 94,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Apricot - Lingonberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 95,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Apricot - Lingonberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 96,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Gojiberry - Blackcurrant - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 97,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Infused Gojiberry - Blackcurrant - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 98,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Grape - Blackberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 99,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Grape - Blackberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 100,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Lychee - Pineapple - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 101,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Lychee - Pineapple - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 102,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Kurma Sukari - White Chiaseeds - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 103,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Kurma Sukari - White Chiaseeds - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 104,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Tutty Fruty - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 105,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Tutty Fruty - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 106,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Berry Dreams - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 107,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Stamina Booster - Berry Dreams - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 108,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mood Booster - Coco Plain (Air Kelapa Muda Polos) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 109,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mood Booster - Coco Plain (Air Kelapa Muda Polos) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 110,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mood Booster - Coco Jelly (Air Kelapa, Jelly Kelapa Serut) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 111,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mood Booster - Coco Jelly (Air Kelapa, Jelly Kelapa Serut) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 112,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mood Booster - Coco Kult (Air Kelapa, Yakult) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 113,
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "menu": "Mood Booster - Coco Kult (Air Kelapa, Yakult) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 114,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Nasi Putih",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 115,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Nasi Merah",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 116,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Tumis Kacang Panjang",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 117,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Orek Tempe",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 118,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Mie Goreng",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 119,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Tongkol Balado",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 120,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Telur Balado",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 121,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Telur Ceplok",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 122,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Telur Dadar",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 123,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Ayam Rica-rica",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 124,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Teri Kacang",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 125,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Cumi Cabe Ijo",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 126,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Kikil Cabe Ijo",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 127,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Semur Ati Ampela",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 128,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Bandeng Presto",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 129,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Ayam Opoe",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 130,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Gorengan",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 131,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Teh Tawar (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 132,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Teh Manis (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 133,
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "menu": "Es Susu",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 134,
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Bakso",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 135,
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Komplit",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 136,
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Jamur",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 137,
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Yamin Pangsit",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 138,
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Yamin Bakso",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 139,
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Yamin Jamur",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 140,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Ayam Goreng",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 141,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Ikan Lele",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 17000
+        },
+        {
+            "id": 142,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Ikan Mas",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 143,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Ikan Nila",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 144,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Ikan Bawal",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 145,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Ikan Jambal",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 146,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Sate Ati Ampela",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 147,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Sate Usus",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": 3000
+        },
+        {
+            "id": 148,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Telur Dadar",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 149,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Perkedel",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 2000
+        },
+        {
+            "id": 150,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Tahu/Tempe",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 2000
+        },
+        {
+            "id": 151,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Teh Manis (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 152,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Teh Tawar (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 3000
+        },
+        {
+            "id": 153,
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "menu": "Jeruk (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": 154,
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "menu": "Sop Iga Bakar",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 35000
+        },
+        {
+            "id": 155,
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "menu": "Nasi Timbel",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 156,
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "menu": "Empal Goreng",
+            "kategori": [
+                "Daging"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 157,
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "menu": "Gorengan",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 2000
+        },
+        {
+            "id": 158,
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "menu": "Rebusan (Ubi, Jagung, Singkong, Pisang)",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 159,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Reman Latte (Espresso Reman Blend + Water + Condensed Milk)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": 160,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Reman Zilla (Espresso Reman Blend + Condensed Milk + UHT Milk)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 13000
+        },
+        {
+            "id": 161,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Reman Moka (Espresso Reman Blend + Condensed Milk + UHT Milk+ Сасао)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 162,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Reman Bundit (Espresso Reman Blend + Brown Sugar + Fresh Milk)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 163,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Reman Gibaz (Espresso Reman Arabica + Fresh Milk + Creamer)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 164,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Tubruk (Kopi Hitam Jujur Apa Adanya Ukuran Regular)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 7000
+        },
+        {
+            "id": 165,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Americano (Single Shot Espresso + Water)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 16000
+        },
+        {
+            "id": 166,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Espresso (Double Shots Espresso)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 167,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Filter (Arabica Specialty Manual Brewing)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": 168,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Café Latte (Single Shot Espresso + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 169,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Cappucino (Double Shots Espresso + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 170,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Mochacino (Single Shot Espresso + Milk + Foam + Mocha)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 171,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Flavour Latte (Single Shot Espresso + Milk + Foam + Hazelnut/Caramel/Greenmint/Vanilla)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 172,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Thai Tea (Thai Tea + Condensed Milk + UHT Milk + Creamer)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": 173,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Thai Green Tea (Thai Tea + Condensed Milk + UHT Milk + Creamer)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": 174,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Dilmah Tea (English Breakfast/Earl Grey/Blackcurrant/Morocant Mint)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": 175,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Chocolate (Cacao + Sugar + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 176,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Matcha Latte (Matcha + Sugar + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 177,
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "menu": "Red Velvet (Red Velvet + Sugar + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 178,
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "menu": "Soto Daging",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 179,
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "menu": "Soto Ayam",
+            "kategori": [
+                "Kuah",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 180,
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "menu": "Soto Betawi",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 181,
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "menu": "Gorengan",
+            "kategori": [
+                "Snack"
+            ],
+            "harga": 2500
+        },
+        {
+            "id": 182,
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "menu": "Nasi Putih",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 183,
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "menu": "Teh Manis (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 184,
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "menu": "Jeruk (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": 185,
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "menu": "Air Mineral",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": 186,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Capcay",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 187,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Nasi Goreng",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 188,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Mie Tek/Kwietiaw",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": 189,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Gado-gado",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 190,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Ketoprak",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 191,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Tahu Gimbal",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 192,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Pindang/Sop Ikan Pilet",
+            "kategori": [
+                "Kuah",
+                "Ikan"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 193,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Soto Mie",
+            "kategori": [
+                "Kuah"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 194,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Rawon",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 30000
+        },
+        {
+            "id": 195,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Sop Daging",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 196,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Sop Ayam",
+            "kategori": [
+                "Kuah",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 197,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Empal Gentong",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": 198,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Tongseng Daging",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": 199,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Tongseng Ayam",
+            "kategori": [
+                "Kuah",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 200,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Ayam Geprek",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": 201,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Bakso Kuah/Tahu",
+            "kategori": [
+                "Kuah"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": 202,
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "menu": "Tahu Campur",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 23000
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ]
+}
