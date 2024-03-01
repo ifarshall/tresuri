@@ -323,12 +323,12 @@
             { filter: ".kuah", imgSrc: "assets/img/icon/Bakmi & Soto.svg", text: "Berkuah" },
             { filter: ".sayur", imgSrc: "assets/img/icon/Sayuran.svg", text: "Sayuran" },
             { filter: ".snack", imgSrc: "assets/img/icon/Snack.svg", text: "Snack" },
-            { filter: ".ayam", imgSrc: "assets/img/icon/Snack.svg", text: "Ayam" },
-            { filter: ".ikan", imgSrc: "assets/img/icon/Snack.svg", text: "Ikan" },
-            { filter: ".daging", imgSrc: "assets/img/icon/Snack.svg", text: "Daging" },
-            { filter: ".gorengan", imgSrc: "assets/img/icon/Snack.svg", text: "Gorengan" },
+            { filter: ".ayam", imgSrc: "assets/img/icon/033-fried chicken.svg", text: "Ayam" },
+            { filter: ".ikan", imgSrc: "assets/img/icon/071-tom yum.svg", text: "Ikan" },
+            { filter: ".daging", imgSrc: "assets/img/icon/023-curry.svg", text: "Daging" },
+            { filter: ".gorengan", imgSrc: "assets/img/icon/028-empanada.svg", text: "Gorengan" },
             { filter: ".minuman", imgSrc: "assets/img/icon/Minuman.svg", text: "Minuman" },
-            { filter: ".kopi", imgSrc: "assets/img/icon/Minuman.svg", text: "Kopi" }
+            { filter: ".kopi", imgSrc: "assets/img/icon/001-afternoon tea.svg", text: "Kopi" }
         ];
         
         // Ambil elemen menu-carousel
