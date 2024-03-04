@@ -55,7 +55,7 @@
           // membuat list
           const innerHtml = `
           
-          <div class="item-single col-md-6">
+        <div class="item-single">
           <div class="item">
               <div class="thumb">
                   <a href="#">
@@ -69,7 +69,11 @@
                   <span class="bg-second">${menu.kategori.length > 1 ? menu.kategori.join(' / ') : menu.kategori[0]}</span>
               </div>
           </div>
-      </div>`;
+          <div style="display:flex;justify-content:center;">
+          <hr style="border:1.5px #dcdcdc solid;width:80%;">
+          </div>
+      </div>
+      `;
           menuGrid.insertAdjacentHTML("beforeend", innerHtml);
         });
     }
