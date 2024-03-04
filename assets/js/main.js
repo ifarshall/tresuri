@@ -265,7 +265,7 @@
           "easeInOutExpo"
         );
       event.preventDefault();
-    });
+    },{passive:false});
 
     /* ==================================================
             # Banner Animation
@@ -329,13 +329,13 @@
       autoplay: false,
       responsive: {
         0: {
-          items: 1,
+          items: 1.3,
         },
         600: {
-          items: 2,
+          items: 3,
         },
         1000: {
-          items: 3,
+          items: 4,
         },
       },
     });
