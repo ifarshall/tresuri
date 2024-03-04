@@ -65,9 +65,7 @@
               </div>
               <div class="info">
                   <h4><a href="#">${menu.menu}</a></h4>
-                  <p>
-                    ${menu.deskripsi_menu ? menu.deskripsi_menu : ""}
-                  </p>
+                  ${menu.deskripsi_menu ? `<p>${menu.deskripsi_menu}</p>` : ""}
                   <span class="bg-second">${menu.kategori.length > 1 ? menu.kategori.join(' / ') : menu.kategori[0]}</span>
               </div>
           </div>

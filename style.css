@@ -2157,6 +2157,15 @@ img.highlight-food {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.basic-info-area .item p {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .basic-info-area .item h2 {
@@ -2789,8 +2798,12 @@ img.highlight-food {
 }
 
 .food-menu-area .menu-flex .item {
-  padding-top: 15px;
+  padding: 15px;
+  border-radius:25px;
   text-align: left;
+  border: 1px #23578B solid;
+  background: #23578B;
+  background-image:url("assets/img/pattern.svg");
 }
 
 .food-menu-area .menu-flex .item .thumb img {
