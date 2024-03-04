@@ -32,7 +32,7 @@
             listMenu.push(warung);
           }
         });
-        console.log('list menu',listMenu)
+        // console.log('list menu',listMenu)
         showData(listMenu)
       } catch (error) {
         console.error("Error fetching JSON:", error);
@@ -58,8 +58,8 @@
         <div class="item-single">
           <div class="item">
               <div class="thumb">
-                  <a href="#">
-                      <img src="assets/img/tenant/${warungActive.foto}" alt="Thumb">
+                  <a href="#" style="display:flex;align-items: center;justify-content: center;">
+                      <img src="assets/img/tenant/${warungActive.foto}" alt="Thumb" style="width:150px;height:150px;max-width:150px;">
                       <h5>${harga}</h5>
                   </a>
               </div>

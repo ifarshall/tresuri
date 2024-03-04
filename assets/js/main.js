@@ -227,7 +227,7 @@
           } else {
             tenantCarousel.owlcarousel2_filter('*')
           }
-        });
+        },{passive:false});
       }
     }
 
@@ -264,8 +264,7 @@
           1500,
           "easeInOutExpo"
         );
-      event.preventDefault();
-    },{passive:false});
+    });
 
     /* ==================================================
             # Banner Animation
