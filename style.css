@@ -2629,6 +2629,8 @@ img.highlight-food {
 }
 
 
+
+
 /* Menu Isotop */
 
 .mix-item-menu button {
@@ -2746,8 +2748,15 @@ img.highlight-food {
   color: #23578B;
 }
 
+.bg-second{
+  background-color:#F7A832;
+  color:#fff;
+  border-radius:50px;
+}
+
 .food-menu-area .menu-flex .item .thumb  h5 {
   position: absolute;
+  font-size:14px;
   right: 0;
   top: 0;
   color: #23578B;

@@ -83,16 +83,10 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav" data-in="#" data-out="#">
                         <li>
-                            <a class="smooth-menu" href="#home">Beranda</a>
-                        </li>
-                        <!-- <li>
-                            <a class="smooth-menu" href="#popular-dishes">Hidangan Populer</a>
+                            <a class="smooth-menu" href="index.html">Beranda</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="#menu">Menu</a>
-                        </li> -->
-                        <li>
-                            <a class="smooth-menu" href="#menu">Tenant</a>
+                            <a class="smooth-menu" href="index.html#tenant">Tenant</a>
                         </li>
                     </ul>
                 </div>
@@ -205,7 +199,7 @@
     </div>
     <!-- End Banner -->
 
-
+    
     <!-- Start Food Menu
         ============================================= -->
     <div id="menu" class="basic-info-area food-menu-area inc-isotop pt-50 pb-50">
@@ -213,10 +207,10 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="item">
-                        <form id="searchForm" action="#">
+                        <form id="searchMenuForm" action="#">
                             <div class="input-group" style="transform:translateY(-20px);z-index:2;">
                                 <input style="width:100%;background-color: #f7f7f7;" type="text" placeholder="Cari Menu"
-                                    class="form-control" name="search" id="searchInput">
+                                    class="form-control" name="search" id="searchMenuInput">
                                 <button type="submit"><i class="fa fa-search"></i></button>
                             </div>
                         </form>
@@ -226,9 +220,10 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="site-heading text-center">
-                        <!-- <h3>Daftar Warung</h3> -->
-                        <h2>Daftar Warung</h2>
-                        <p>
+                        <button type="button" class="btn btn-warning" id="backToHome">Kembali</button>
+                        <h3>Daftar Menu</h3>
+                        <h2 id="namaWarung"></h2>
+                        <p id="deskripsiWarung">
                             Selamat datang di Kantin Tresuri, tempa di mana kesehatan dan kelezatan bertemu harmonis!
                             Nikmati pengalaman makan yang tak hanya lezat, tetapi juga menyehatkan dengan pilihan
                             makanan segar dan berkualitas tinggi. Segera sambut gaya hidup sehat Anda dengan santap di
@@ -239,7 +234,15 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div id="list-tenant" class="menu-lists food-menu-carousel owl-carousel owl-theme text-center">
+                    <div class="food-menu-area">
+                        <div class="row">
+                            <div class="col-md-12 text-center food-menu-content">
+                                <div class="row masonary">
+                                    <div id="portfolio-grid" class="menu-flex col-2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -329,102 +332,7 @@
     </div> -->
     <!-- End Gallery -->
 
-    <!-- Start Testimonials 
-    ============================================= -->
-    <!-- <div id="review" class="testimonials-area bg-gray carousel-shadow default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="site-heading text-center">
-                        <h3>Reviews</h3>
-                        <h2>Testimonials</h2>
-                        <p>
-                            While mirth large of on front. Ye he greater related adapted proceed entered an. Through it
-                            examine express promise no. Past add size game cold girl off how old
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="testimonial-items testimonials-carousel owl-carousel owl-theme text-center">
-                        
-                        <div class="item">
-                            <h4>Delicious Burger</h4>
-                            <p>
-                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read.
-                                Anxious cordial demands settled entered in do to colonel.
-                            </p>
-                            <div class="thumb">
-                                <img src="assets/img/100x100.png" alt="Thumb">
-                                <i class="fas fa-quote-left"></i>
-                            </div>
-                            <div class="clients-info">
-                                <h5>Ahel John</h5>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="item">
-                            <h4>Awesome pizza</h4>
-                            <p>
-                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read.
-                                Anxious cordial demands settled entered in do to colonel.
-                            </p>
-                            <div class="thumb">
-                                <img src="assets/img/100x100.png" alt="Thumb">
-                                <i class="fas fa-quote-left"></i>
-                            </div>
-                            <div class="clients-info">
-                                <h5>Michel Athem</h5>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="item">
-                            <h4>Delicious Burger</h4>
-                            <p>
-                                Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read.
-                                Anxious cordial demands settled entered in do to colonel.
-                            </p>
-                            <div class="thumb">
-                                <img src="assets/img/100x100.png" alt="Thumb">
-                                <i class="fas fa-quote-left"></i>
-                            </div>
-                            <div class="clients-info">
-                                <h5>Ahel John</h5>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End Testimonials -->
-
-
+    
     <!-- Start Footer 
     ============================================= -->
     <footer class="bg-fixed pattern shadow" style="background-color: #23578B;">
@@ -476,7 +384,7 @@
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
-
+    <script src="assets/js/loadmenu.js"></script>
 </body>
 
 </html>

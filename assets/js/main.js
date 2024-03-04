@@ -10,43 +10,6 @@
   "use strict";
 
   $(document).on("ready", function () {
-    let menuData = [];
-
-    // fetch("assets/menu.json")
-    //   .then((response) => {
-    //     return response.json();
-    //   })
-    //   .then((data) => {
-    //     menuData = data.data;
-    //     const portfolioGrid = document.getElementById("portfolio-grid");
-    //     // Loop melalui data menu dan buat elemen HTML sesuai dengan struktur yang diberikan
-
-    //     menuData.forEach((menu) => {
-    //       const categories = menu.kategori.join(" "); // Menggabungkan kelas kategori
-
-    //       // Membuat elemen HTML untuk item menu
-    //       const itemHTML = `
-    //             <div class="item-single pf-item ${categories.toLowerCase()}">
-    //                 <div class="item">
-    //                     <div class="thumb">
-    //                         <a href="#">
-    //                             <img src="assets/img/800x800.png" alt="Thumb">
-    //                             <h5>${menu.harga}</h5>
-    //                         </a>
-    //                     </div>
-    //                     <div class="info">
-    //                         <h4><a class="tenant" href="#">${menu.nama_warung}</a></h4>
-    //                         <p>${menu.menu}</p>
-    //                         <span>${menu.lokasi}</span>
-    //                     </div>
-    //                 </div>
-    //             </div>
-    //         `;
-
-    //       // Menambahkan elemen HTML ke dalam portfolioGrid
-    //       portfolioGrid.insertAdjacentHTML("beforeend", itemHTML);
-    //     });
-    //   });
 
     const tenantLists = [
       {
@@ -186,49 +149,89 @@
     ];
 
     function formatRupiah(angka) {
-      var reverse = angka.toString().split('').reverse().join(''),
+      var reverse = angka.toString().split("").reverse().join(""),
       ribuan = reverse.match(/\d{1,3}/g);
-      ribuan = ribuan.join('.').split('').reverse().join('');
-      return 'Rp ' + ribuan;
+      ribuan = ribuan.join(".").split("").reverse().join("");
+      return "Rp " + ribuan;
     }
 
     function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
       }
     }
 
-    shuffleArray(tenantLists)
+    shuffleArray(tenantLists);
 
-    const tenantListsElement = document.getElementById("list-tenant");
-    tenantLists.forEach((tenant) => {
-      const minHarga = formatRupiah(tenant.min);
-      const maxHarga = formatRupiah(tenant.max);
-      const itemHTML = `
-              <div class="item">
-                  <div class="thumb">
-                      <a href="#">
-                          <img src="assets/img/tenant/${tenant.foto}" alt="${tenant.nama_warung}">
-                      </a>
-                      <div class="price">
-                        <h5>${minHarga !== 'Rp 0' || maxHarga !== 'Rp 0' ? `${minHarga} - ${maxHarga}` : 'Harga Spesial'}</h5>
-                      </div>
-                  </div>
-                  <div class="info">
-                      <h4><a href="#">${tenant.nama_warung}</a></h4>
-                      <span>Mutton / Olive Oil / Salt</span>
-                      <p>
-                        ${tenant.deskripsi_warung}
-                      </p>
-                      <div class="button">
-                          <a href="#">Pesan Sekarang</a>
-                      </div>
-                  </div>
-              </div>
-          `;
-      tenantListsElement.insertAdjacentHTML("beforeend", itemHTML);
-    });
+    function loadTenant(tenantLists) {
+      if(window.location.pathname == '/index.html'){
+        const tenantListsElement = document.getElementById("list-tenant");
+        // Mengosongkan isi tenantListsElement sebelum menambahkan tenant baru
+        tenantListsElement.innerHTML = "";
+  
+  
+        // Memuat ulang daftar tenant yang telah difilter
+        tenantLists.forEach((tenant) => {
+          const minHarga = formatRupiah(tenant.min);
+          const maxHarga = formatRupiah(tenant.max);
+          const id = (tenant.nama_warung).toLowerCase().replace(/\s+/g, '_');
+          let warungPage = (tenant.nama_warung).replace(/\s+(\w)/g, function(match, firstLetter) {
+            return firstLetter.toUpperCase();
+          });
+          // Huruf pertama tetap huruf kecil
+          warungPage = warungPage.charAt(0).toLowerCase() + warungPage.slice(1);
+          const itemHTML = `
+                    <div class="item ${id}">
+                        <div class="thumb">
+                            <a href="menu.html#${warungPage}">
+                                <img src="assets/img/tenant/${
+                                  tenant.foto
+                                }" alt="${tenant.nama_warung}">
+                            </a>
+                            <div class="price">
+                              <h5>${
+                                minHarga !== "Rp 0" || maxHarga !== "Rp 0"
+                                  ? `${minHarga} - ${maxHarga}`
+                                  : "Harga Spesial"
+                              }</h5>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4><a href="menu.html#${warungPage}">${tenant.nama_warung}</a></h4>
+                            <p>
+                              ${tenant.deskripsi_warung}
+                            </p>
+                            <div class="button">
+                                <a href="menu.html#${warungPage}">Pesan Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+          tenantListsElement.insertAdjacentHTML("beforeend", itemHTML);
+        });
+
+        const searchForm = document.getElementById("searchForm");
+        const searchInput = document.getElementById("searchInput");
+
+        searchForm.addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const searchTerm = searchInput.value.trim();
+          if(searchTerm){
+            // tenantCarousel.owlcarousel2_filter(`.${searchTerm}`)
+            const regex = new RegExp(searchTerm, 'i');
+            const filteredItems = tenantLists.filter(tenant => regex.test(tenant.nama_warung.toLowerCase()));
+            const filteredIds = filteredItems.map(item => `.${item.nama_warung.toLowerCase().replace(/\s+/g, '_')}`);
+            tenantCarousel.owlcarousel2_filter(filteredIds.join(','));
+          } else {
+            tenantCarousel.owlcarousel2_filter('*')
+          }
+        });
+      }
+    }
+
+    loadTenant(tenantLists);
 
     /* ==================================================
             # Wow Init
@@ -310,283 +313,11 @@
         $(".equal-height").equalHeights();
       });
 
-    /* ==================================================
-            # Youtube Video Init
-         ===============================================*/
-    $(".player").mb_YTPlayer();
-
-    // Data filter untuk setiap kategori
-    // const filters = [
-    //   { name: "Semua Menu", class: "*" },
-    //   { name: "Nasi", class: ".nasi" },
-    //   { name: "Berkuah", class: ".berkuah" },
-    //   { name: "Sayuran", class: ".sayuran" },
-    //   { name: "Snack", class: ".snack" },
-    //   { name: "Ayam", class: ".ayam" },
-    //   { name: "Ikan", class: ".ikan" },
-    //   { name: "Daging", class: ".daging" },
-    //   { name: "Gorengan", class: ".gorengan" },
-    //   { name: "Minuman", class: ".minuman" },
-    //   { name: "Kopi", class: ".kopi" },
-    // ];
-
-    // Ambil elemen menu
-    // const mixItemMenu = document.getElementById("mixItemMenu");
-
-    // // Loop melalui setiap filter dan buat tombol
-    // filters.forEach((filter) => {
-    //   const button = document.createElement("button");
-    //   button.textContent = filter.name;
-    //   button.setAttribute("data-filter", filter.class);
-    //   mixItemMenu.appendChild(button);
-    // });
-
-    // const firstButton = mixItemMenu.querySelector("button");
-    // if (firstButton) {
-    //   firstButton.classList.add("active");
-    // }
-
-    // $(".menu-carousel").owlCarousel({
-    //   loop: true,
-    //   dots: false,
-    //   responsive: {
-    //     0: {
-    //       items: 2,
-    //       margin: 20,
-    //     },
-    //     600: {
-    //       items: 5,
-    //       margin: 10,
-    //     },
-    //     1000: {
-    //       items: 6,
-    //       margin: 0,
-    //     },
-    //   },
-    //   autoplay: false,
-    // });
-
-    /* ==================================================
-            # imagesLoaded active
-        ===============================================*/
-    $("#portfolio-grid,.blog-masonry").imagesLoaded(function () {
-      /* Filter menu */
-      $(".mix-item-menu").on("click", "button", function () {
-        var filterValue = $(this).attr("data-filter");
-        $grid.isotope({
-          filter: filterValue,
-        });
-      });
-
-      const buttons = document.querySelectorAll(
-        ".mix-item-menu .owl-stage button"
-      );
-      buttons.forEach(function (button) {
-        button.addEventListener("click", function () {
-          buttons.forEach(function (btn) {
-            btn.classList.remove("active");
-          });
-
-          this.classList.add("active");
-        });
-      });
-
-      /* Filter active */
-      var $grid = $("#portfolio-grid").isotope({
-        itemSelector: ".pf-item",
-        percentPosition: true,
-        masonry: {
-          columnWidth: ".pf-item",
-        },
-      });
-
-      const searchForm = document.getElementById("searchForm");
-      const searchInput = document.getElementById("searchInput");
-
-      // Tambahkan event listener pada form saat submit
-      searchForm.addEventListener("submit", function (event) {
-        // Menghentikan aksi default dari form (mengirimkan data)
-        event.preventDefault();
-
-        // Mendapatkan nilai dari input search
-        const searchTerm = searchInput.value.trim();
-
-        // Lakukan sesuatu dengan nilai search term
-        if (searchTerm) {
-          $grid.isotope({
-            filter: function () {
-              var name = $(this).find(".tenant").text().toLowerCase();
-              return name.includes(searchTerm);
-            },
-          });
-        } else {
-          $grid.isotope({
-            filter: "*",
-          });
-        }
-      });
-    });
-
-    /* ==================================================
-            # Fun Factor Init
-        ===============================================*/
-    $(".timer").countTo();
-    $(".fun-fact").appear(
-      function () {
-        $(".timer").countTo();
-      },
-      {
-        accY: -100,
-      }
-    );
-
-    /* ==================================================
-            # Magnific popup init
-         ===============================================*/
-    $(".popup-link").magnificPopup({
-      type: "image",
-      // other options
-    });
-
-    $(".popup-gallery").magnificPopup({
-      type: "image",
-      gallery: {
-        enabled: true,
-      },
-      // other options
-    });
-
-    $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
-      type: "iframe",
-      mainClass: "mfp-fade",
-      removalDelay: 160,
-      preloader: false,
-      fixedContentPos: false,
-    });
-
-    $(".magnific-mix-gallery").each(function () {
-      var $container = $(this);
-      var $imageLinks = $container.find(".item");
-
-      var items = [];
-      $imageLinks.each(function () {
-        var $item = $(this);
-        var type = "image";
-        if ($item.hasClass("magnific-iframe")) {
-          type = "iframe";
-        }
-        var magItem = {
-          src: $item.attr("href"),
-          type: type,
-        };
-        magItem.title = $item.data("title");
-        items.push(magItem);
-      });
-
-      $imageLinks.magnificPopup({
-        mainClass: "mfp-fade",
-        items: items,
-        gallery: {
-          enabled: true,
-          tPrev: $(this).data("prev-text"),
-          tNext: $(this).data("next-text"),
-        },
-        type: "image",
-        callbacks: {
-          beforeOpen: function () {
-            var index = $imageLinks.index(this.st.el);
-            if (-1 !== index) {
-              this.goTo(index);
-            }
-          },
-        },
-      });
-    });
-
-    /* ==================================================
-            # Content Carousel
-         ===============================================*/
-    $(".content-carousel").owlCarousel({
-      loop: false,
-      nav: false,
-      dots: true,
-      items: 1,
-      navText: [
-        "<i class='fa fa-angle-left'></i>",
-        "<i class='fa fa-angle-right'></i>",
-      ],
-    });
-
-    /* ==================================================
-            # Offer Carousel
-         ===============================================*/
-    $(".offer-carousel").owlCarousel({
-      loop: false,
-      nav: true,
-      dots: false,
-      items: 1,
-      navText: [
-        "<i class='fa fa-angle-left'></i>",
-        "<i class='fa fa-angle-right'></i>",
-      ],
-    });
-
-    /* ==================================================
-            # Services Carousel
-         ===============================================*/
-    $(".services-carousel").owlCarousel({
-      loop: false,
-      margin: 15,
-      nav: true,
-      navText: [
-        "<i class='fa fa-angle-left'></i>",
-        "<i class='fa fa-angle-right'></i>",
-      ],
-      dots: false,
-      autoplay: true,
-      responsive: {
-        0: {
-          items: 1,
-        },
-        600: {
-          items: 2,
-        },
-        1000: {
-          items: 3,
-        },
-      },
-    });
-
-    /* ==================================================
-            #  Testimonials Carousel
-         ===============================================*/
-    $(".testimonials-carousel").owlCarousel({
-      loop: false,
-      margin: 30,
-      nav: false,
-      navText: [
-        "<i class='fa fa-angle-left'></i>",
-        "<i class='fa fa-angle-right'></i>",
-      ],
-      dots: true,
-      autoplay: true,
-      responsive: {
-        0: {
-          items: 1,
-        },
-        600: {
-          items: 2,
-        },
-        1000: {
-          items: 2,
-        },
-      },
-    });
 
     /* ==================================================
             # Food Menu Carousel
          ===============================================*/
-    $(".food-menu-carousel").owlCarousel({
+    let tenantCarousel = $(".food-menu-carousel").owlCarousel({
       loop: true,
       margin: 30,
       nav: false,
@@ -609,6 +340,8 @@
       },
     });
 
+    
+
     /* ==================================================
             # Banner Carousel
          ===============================================*/
@@ -622,68 +355,9 @@
       autoplayTimeout: 20000,
     });
 
-    // const items = [
-    //     { filter: ".nasi", imgSrc: "assets/img/icon/Nasi.svg", text: "Nasi" },
-    //     { filter: ".kuah", imgSrc: "assets/img/icon/Bakmi & Soto.svg", text: "Berkuah" },
-    //     { filter: ".sayur", imgSrc: "assets/img/icon/Sayuran.svg", text: "Sayuran" },
-    //     { filter: ".snack", imgSrc: "assets/img/icon/Snack.svg", text: "Snack" },
-    //     { filter: ".ayam", imgSrc: "assets/img/icon/033-fried chicken.svg", text: "Ayam" },
-    //     { filter: ".ikan", imgSrc: "assets/img/icon/071-tom yum.svg", text: "Ikan" },
-    //     { filter: ".daging", imgSrc: "assets/img/icon/023-curry.svg", text: "Daging" },
-    //     { filter: ".gorengan", imgSrc: "assets/img/icon/028-empanada.svg", text: "Gorengan" },
-    //     { filter: ".minuman", imgSrc: "assets/img/icon/Minuman.svg", text: "Minuman" },
-    //     { filter: ".kopi", imgSrc: "assets/img/icon/001-afternoon tea.svg", text: "Kopi" }
-    // ];
-
-    // const menuCarousel = document.getElementById("menu-carousel");
-    // items.forEach(item => {
-    //     const link = document.createElement("a");
-    //     link.href = "#";
-    //     link.classList.add("item");
-    //     link.setAttribute("data-filter", item.filter);
-
-    //     const img = document.createElement("img");
-    //     img.src = item.imgSrc;
-    //     img.style.height = "fit-content";
-    //     img.style.maxHeight = "100px";
-    //     img.alt = "Image";
-    //     img.height = 100;
-
-    //     const div = document.createElement("div");
-    //     div.classList.add("text-center");
-    //     div.style.fontSize = "smaller";
-    //     div.textContent = item.text;
-
-    //     link.appendChild(img);
-    //     link.appendChild(div);
-
-    //     menuCarousel.appendChild(link);
-    // });
-
-    // let isOpenMenu = false;
-    // const buttonMenu = document.getElementById("allMenu");
-    // buttonMenu.addEventListener("click",(e)=>{
-    //     e.preventDefault();
-    //     if(isOpenMenu){
-    //         isOpenMenu = false;
-    //         buttonMenu.textContent = "Lihat Semua";
-    //         menuCarousel.classList.add("fade-in");
-    //         menuCarousel.classList.remove("fade-out");
-    //         menuCarousel.classList.remove("hidden");
-    //     } else {
-    //         isOpenMenu = true;
-    //         buttonMenu.textContent = "Tutup";
-    //         menuCarousel.classList.remove("fade-in");
-    //         menuCarousel.classList.add("fade-out");
-    //         menuCarousel.classList.add("hidden");
-    //     }
-
-    // })
-
     /* ==================================================
             Preloader Init
          ===============================================*/
-    // $('#preloader').addClass('loading');
     $(window).on("load", function () {
       setTimeout(function () {
         $("#preloader").fadeOut(500, function () {
@@ -697,41 +371,5 @@
          ===============================================*/
     $("select").niceSelect();
 
-    /* ==================================================
-            Contact Form Validations
-        ================================================== */
-    $(".contact-form").each(function () {
-      var formInstance = $(this);
-      formInstance.submit(function () {
-        var action = $(this).attr("action");
-
-        $("#message").slideUp(750, function () {
-          $("#message").hide();
-
-          $("#submit")
-            .after('<img src="assets/img/ajax-loader.gif" class="loader" />')
-            .attr("disabled", "disabled");
-
-          $.post(
-            action,
-            {
-              name: $("#name").val(),
-              email: $("#email").val(),
-              phone: $("#phone").val(),
-              comments: $("#comments").val(),
-            },
-            function (data) {
-              document.getElementById("message").innerHTML = data;
-              $("#message").slideDown("slow");
-              $(".contact-form img.loader").fadeOut("slow", function () {
-                $(this).remove();
-              });
-              $("#submit").removeAttr("disabled");
-            }
-          );
-        });
-        return false;
-      });
-    });
   }); // end document ready function
 })(jQuery); // End jQuery

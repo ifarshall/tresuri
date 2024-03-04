@@ -1,0 +1,2930 @@
+﻿{
+    "data": [
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Chicken Steak Original",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 35000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Chicken Steak Crispy",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 30000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Teriyaki Ricebowl",
+            "deskripsi_menu": "Teriyaki adalah cara memasak makanan Jepang yang dipanaskan atau dipanggang dan dilapisi dengan kecap dan sake, mirin, atau gula beraroma rasa.[1] Sewaktu sedang membuat teriyaki, bahan-bahan makanan yang akan dipanggang dicelupkan dan diolesi dengan saus teriyaki sampai beberapa kali hingga betul-betul masak.",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Nasi Tempong",
+            "deskripsi_menu": "Makanan khas Banyuwangi berupa kumpulan sayuran yang sudah direbus seperti bayam, kenikir dan daun kemangi serta lauk tahu, tempe, bakwan jagung goreng, juga ikan jambal goreng tepung kemudian disiram dengan sambal kacang.",
+            "kategori": [
+                "Nasi",
+                "Sayuran"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Sop Iga",
+            "kategori": [
+                "Daging",
+                "Kuah"
+            ],
+            "harga": 35000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Indomie",
+            "deskripsi_menu": "Mi instan terenak. Siapa sih yang bisa menolak kenikmatan Indomie seleraku?",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Mix Platter",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Roti Bakar",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Es Markisa",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Melon Lemonade",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Es Teh Manis",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Es Teh Sereh",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Es SelaD (Selasih Nata de Coco)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "henimsKitchen",
+            "lokasi": "C1",
+            "nama_warung": "Henims Kitchen",
+            "deskripsi_warung": "Menyediakan Chicken Steak (Crispy/Original), Teriyaki Ricebowl, Nasi Tempong, dan Sop Iga. Khusus Sop Iga by request H-1.",
+            "menu": "Kopi Instan",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "deLima",
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "deskripsi_warung": "Menyediakan berbagai paket nasi dengan lauk ayam/ikan/paru, dan menu spesial Sroto Sokaraja Banyumas.",
+            "menu": "Paket Nasi Gurame (Asam Manis / Goreng, Kerupuk)",
+            "kategori": [
+                "Nasi",
+                "Ikan"
+            ],
+            "harga": 35000
+        },
+        {
+            "id": "deLima",
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "deskripsi_warung": "Menyediakan berbagai paket nasi dengan lauk ayam/ikan/paru, dan menu spesial Sroto Sokaraja Banyumas.",
+            "menu": "Paket Nasi Ayam (Serundeng / Bakar, Tempe, Kerupuk)",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "deLima",
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "deskripsi_warung": "Menyediakan berbagai paket nasi dengan lauk ayam/ikan/paru, dan menu spesial Sroto Sokaraja Banyumas.",
+            "menu": "Nasi Bakar isi (Ayam/Cakalang, Telur, Tempe Orek, Kerupuk)",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "deLima",
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "deskripsi_warung": "Menyediakan berbagai paket nasi dengan lauk ayam/ikan/paru, dan menu spesial Sroto Sokaraja Banyumas.",
+            "menu": "Paket Nasi Paru (Serundeng / Cabe Ijo, Tahu, Tempe, Kerupuk)",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "deLima",
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "deskripsi_warung": "Menyediakan berbagai paket nasi dengan lauk ayam/ikan/paru, dan menu spesial Sroto Sokaraja Banyumas.",
+            "menu": "Paket Nila Sambal Gami (Nila Goreng, Tempe, Kerupuk)",
+            "kategori": [
+                "Nasi",
+                "Ikan"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "deLima",
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "deskripsi_warung": "Menyediakan berbagai paket nasi dengan lauk ayam/ikan/paru, dan menu spesial Sroto Sokaraja Banyumas.",
+            "menu": "Paket Nasi Sroto Sokaraja (Tempe Mendoan, Kerupuk)",
+            "deskripsi_menu": "Soto khas Sokaraja, Banyumas, Jawa Tengah yang berciri khas menggunakan bumbu sambal kacang dan ketupat yang dicampur di dalam mangkuk dan didampingi mendoan hangat.",
+            "kategori": [
+                "Nasi",
+                "Kuah"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "deLima",
+            "lokasi": "B2",
+            "nama_warung": "deLima",
+            "deskripsi_warung": "Menyediakan berbagai paket nasi dengan lauk ayam/ikan/paru, dan menu spesial Sroto Sokaraja Banyumas.",
+            "menu": "Seblak Kuah",
+            "kategori": [
+                "Kuah"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "dapurTamanAyun",
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "deskripsi_warung": "Menyediakan tongseng, soto banjar, nasi bebek, dam aneka cemilan",
+            "menu": "Tongseng Paru + Nasi",
+            "deskripsi_menu": "Hidangan gulai daging/ayam berkuah kental dengan bumbu tumisan yang kuat, ditambah sayuran seperti kol, bawang putih, tomat, dan kecap manis ke dalam kuahnya.",
+            "kategori": [
+                "Kuah",
+                "Nasi"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "dapurTamanAyun",
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "deskripsi_warung": "Menyediakan tongseng, soto banjar, nasi bebek, dam aneka cemilan",
+            "menu": "Soto Banjar + Nasi/Lontong",
+            "deskripsi_menu": "Soto Banjar adalah soto khas suku Banjar, Kalimantan Selatan dengan bahan utama daging ayam serta memiliki aroma harum rempah-rempah seperti kayu manis, biji pala, dan cengkih.",
+            "kategori": [
+                "Kuah",
+                "Nasi"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "dapurTamanAyun",
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "deskripsi_warung": "Menyediakan tongseng, soto banjar, nasi bebek, dam aneka cemilan",
+            "menu": "Nasi Bebek",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "dapurTamanAyun",
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "deskripsi_warung": "Menyediakan tongseng, soto banjar, nasi bebek, dam aneka cemilan",
+            "menu": "Tongseng Ayam + Nasi",
+            "deskripsi_menu": "Hidangan gulai daging/ayam berkuah kental dengan bumbu tumisan yang kuat, ditambah sayuran seperti kol, bawang putih, tomat, dan kecap manis ke dalam kuahnya.",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "dapurTamanAyun",
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "deskripsi_warung": "Menyediakan tongseng, soto banjar, nasi bebek, dam aneka cemilan",
+            "menu": "Indomie",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 13000
+        },
+        {
+            "id": "dapurTamanAyun",
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "deskripsi_warung": "Menyediakan tongseng, soto banjar, nasi bebek, dam aneka cemilan",
+            "menu": "Jeruk (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "dapurTamanAyun",
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "deskripsi_warung": "Menyediakan tongseng, soto banjar, nasi bebek, dam aneka cemilan",
+            "menu": "Teh Manis",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "dapurTamanAyun",
+            "lokasi": "B1",
+            "nama_warung": "Dapur Taman Ayun",
+            "deskripsi_warung": "Menyediakan tongseng, soto banjar, dan nasi bebek",
+            "menu": "Air Mineral",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Pangsit Goreng Ayam",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Nasi Liwet, Ayam, Tahu/Tempe",
+            "deskripsi_menu": "Nasi liwet adalah hidangan nasi khas Indonesia yang dimasak dengan santan, kaldu ayam, daun salam dan serai, sehingga memberikan nasi rasa yang kaya, aromatik, dan gurih.",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Nasi Ulam, Gorengan, Bihun, Tempe Orek, Kerupuk",
+            "deskripsi_menu": "Nasi ulam adalah hidangan nasi yang dicampur berbagai bumbu dan rempah, khususnya daun pegagan atau dapat diganti daun kemangi, sayuran, dan berbagai bumbu, serta ditemani beberapa macam lauk-pauk.",
+            "kategori": [
+                "Nasi",
+                "Ayam"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Soto Mie Bakso + Nasi",
+            "kategori": [
+                "Kuah",
+                "Nasi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Rebusan (Ubi, Jagung, Singkong, Pisang)",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Gorengan",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 3000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Pie Brownies Mini",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Pudding Coklat Cup",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Brownis Lumer",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 7000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Risol Mayo",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Bihun Goreng Sambal Kacang",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Mie Goreng Sambal Kacang",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Keripik Singkong Pedas Manis",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 8000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Macaroni Bumbu Halus",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 8000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Bajigur",
+            "deskripsi_menu": "Bajigur adalah minuman tradisional khas masyarakat Sunda dengan bahan utama berupa gula aren dan santan dicampur sedikit jahe dan garam.",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Es Ocha Yakult",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Es Jeruk Peras",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 8000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Es Sirup Marjan Susu Selasih",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": "yenKitchen",
+            "lokasi": "C3",
+            "nama_warung": "Yen Kitchen",
+            "deskripsi_warung": "Menyediakan pangsit goreng ayam, nasi liwet, nasi ulam, dam aneka cemilan",
+            "menu": "Asinan Buah",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mie Sedap Korean Cheese Buldak (Mie Goreng, Sosis, Bakso, Gyoza)",
+            "deskripsi_menu": "Sajian mie instan Sedapp dengan topping utama buldak, ayam yang pedas, ditambahkan dengan keju, dan topping lainnya.",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mie Sedap Korean Spicy Chicken (Mie Goreng, Sosis, Bakso, Gyoza) ",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mie Sedap Spicy Soup (Mie Kuah, Crab Stick, Fish Cake, Gyoza)",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mie Sedap Singapore Spicy Laksa (Mie Kuah, Crab Stick, Fish Cake, Gyoza)",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Dimsum",
+            "deskripsi_menu": "\"Dimsum istilah dari bahasa Kanton yang berarti \"makanan kecil\" yang terbuat dari campuran ayam, udang, tepung tapioka, dan beberapa seasoning lainnya.\"",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Gyoza",
+            "deskripsi_menu": "Gyoza adalah pangsit mini yang aslinya berasal dari Cina. Biasanya gyoza terbuat dari sayuran yang dicincang seperti bawang putih, kubis dan kucai dan kemudian dicampur dengan daging cincang babi maupun ayam kemudian dibungkus dengan kulit pangsit tipis yang terbuat dari adonan tepung terigu yang dicampur dengan air.",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Siomay Ikan Tengiri",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Cilok",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Kopi Susu Aren (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Kopi Hitam Aren",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Americano Full Arabica (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Cappucino",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Coffee Latte",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Kopi Pandan Latte",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Kopi Kelapa",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Matcha Latte",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Thai Tea",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Chocolate",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Lychee Tea",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Flavor Latte",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Lychee Yakult",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Cincau Hijau Organik (Plain)",
+            "deskripsi_menu": "Cincau hijau adalah jenis tumbuhan yang diolah menjadi agar-agar dengan rasa yang khas. Manfaat cincau hijau mulai dari mengatasi masalah pencernaan hingga mengobati demam dan sakit tenggorokan.",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Cincau Hijau Organik Fresh Milk",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Immune Booster - Coco Green (Air Kelapa Ijo) - 550 ml",
+            "deskripsi_menu": "Air kelapa bermanfaat sebagai Antibakterial dan juga membunuh bakteri penyebab infeksi dalam tubuh.",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Immune Booster - Coco Green (Air Kelapa Ijo) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Immune Booster - Coco Honelo (Air Kelapa, Madu, Air Lemon, Kiamboy) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Immune Booster - Coco Honelo (Air Kelapa, Madu, Air Lemon, Kiamboy) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Immune Booster - Coco Buttepe (Air Kelapa, Bunga Telang) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Immune Booster - Coco Buttepe (Air Kelapa, Bunga Telang) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Immune Booster - Coco Calico (Air Kelapa, Bunga Rosella, Buah Kundur) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Immune Booster - Coco Calico (Air Kelapa, Bunga Rosella, Buah Kundur) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Sunkist - Strawberry - 550 ml",
+            "deskripsi_menu": "Infused water adalah minuman dari campuran air putih dan buah-buahan yang direndam selama beberapa jam atau dibiarkan semalaman di kulkas.",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Sunkist - Strawberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Lemon - Strawberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Lemon - Strawberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Kiwi - Strawberry - 550ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Kiwi - Strawberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Longan - Kietna - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Longan - Kietna - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Pomegranate - Lime - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Pomegranate - Lime - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Apple - Cinnamon - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Apple - Cinnamon - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Blueberry - Raspberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Blueberry - Raspberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Apricot - Lingonberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Apricot - Lingonberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Gojiberry - Blackcurrant - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Infused Gojiberry - Blackcurrant - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Grape - Blackberry - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Grape - Blackberry - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Lychee - Pineapple - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Lychee - Pineapple - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Kurma Sukari - White Chiaseeds - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Kurma Sukari - White Chiaseeds - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Tutty Fruty - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Tutty Fruty - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Berry Dreams - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Stamina Booster - Berry Dreams - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mood Booster - Coco Plain (Air Kelapa Muda Polos) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mood Booster - Coco Plain (Air Kelapa Muda Polos) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mood Booster - Coco Jelly (Air Kelapa, Jelly Kelapa Serut) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mood Booster - Coco Jelly (Air Kelapa, Jelly Kelapa Serut) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mood Booster - Coco Kult (Air Kelapa, Yakult) - 550 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "in-Fusion",
+            "lokasi": "VIP",
+            "nama_warung": "In-Fusion",
+            "deskripsi_warung": "Kafe kekinian dengan menu makanan ala korea dan berbagai minuman sehat.",
+            "menu": "Mood Booster - Coco Kult (Air Kelapa, Yakult) - 300 ml",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Nasi Putih",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Nasi Merah",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tumis Kacang Panjang",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Orek Tempe",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Mie Goreng",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tongkol Balado",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Telur Balado",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Telur Ceplok",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Telur Dadar",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Ayam Rica-rica",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Teri Kacang",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Cumi Cabe Ijo",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Kikil Cabe Ijo",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Semur Ati Ampela",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Bandeng Presto",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Ayam Opoe",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Gorengan",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Teh Tawar (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Teh Manis (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesBuErna",
+            "lokasi": "C2",
+            "nama_warung": "Nasi Rames Bu Erna",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Es Susu",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "bakmiAyamRahayu",
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Bakso",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "bakmiAyamRahayu",
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Komplit",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "bakmiAyamRahayu",
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Jamur",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "bakmiAyamRahayu",
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Yamin Pangsit",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "bakmiAyamRahayu",
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Yamin Bakso",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "bakmiAyamRahayu",
+            "lokasi": "C6",
+            "nama_warung": "Bakmi Ayam Rahayu",
+            "menu": "Mie Ayam Yamin Jamur",
+            "kategori": [
+                "Bakmi",
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Ayam Goreng",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Ikan Lele",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 17000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Ikan Mas",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Ikan Nila",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Ikan Bawal",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Ikan Jambal",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Sate Ati Ampela",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Sate Usus",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": 3000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Telur Dadar",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Perkedel",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 2000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Tahu/Tempe",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 2000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Teh Manis (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Teh Tawar (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 3000
+        },
+        {
+            "id": "sariLaras",
+            "lokasi": "C4",
+            "nama_warung": "Sari Laras",
+            "deskripsi_warung": "Menyediakan pecel ayam, lele, ikan mas, nila, bawal, jambal, dan lain-lain.",
+            "menu": "Jeruk (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "warungUniYeti",
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "deskripsi_warung": "Menyediakan menu mi ayam dan mi ayam yamin.",
+            "menu": "Sop Iga Bakar",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 35000
+        },
+        {
+            "id": "warungUniYeti",
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "deskripsi_warung": "Menyediakan menu mi ayam dan mi ayam yamin.",
+            "menu": "Nasi Timbel",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "warungUniYeti",
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "deskripsi_warung": "Menyediakan menu mi ayam dan mi ayam yamin.",
+            "menu": "Empal Goreng",
+            "kategori": [
+                "Daging"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "warungUniYeti",
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "deskripsi_warung": "Menyediakan menu mi ayam dan mi ayam yamin.",
+            "menu": "Gorengan",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 2000
+        },
+        {
+            "id": "warungUniYeti",
+            "lokasi": "A2",
+            "nama_warung": "Warung Uni Yeti",
+            "deskripsi_warung": "Menyediakan menu mi ayam dan mi ayam yamin.",
+            "menu": "Rebusan (Ubi, Jagung, Singkong, Pisang)",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Reman Latte (Espresso Reman Blend + Water + Condensed Milk)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Reman Zilla (Espresso Reman Blend + Condensed Milk + UHT Milk)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 13000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Reman Moka (Espresso Reman Blend + Condensed Milk + UHT Milk+ Сасао)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Reman Bundit (Espresso Reman Blend + Brown Sugar + Fresh Milk)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Reman Gibaz (Espresso Reman Arabica + Fresh Milk + Creamer)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Tubruk (Kopi Hitam Jujur Apa Adanya Ukuran Regular)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 7000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Americano (Single Shot Espresso + Water)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 16000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Espresso (Double Shots Espresso)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Filter (Arabica Specialty Manual Brewing)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Café Latte (Single Shot Espresso + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Cappucino (Double Shots Espresso + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Mochacino (Single Shot Espresso + Milk + Foam + Mocha)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Flavour Latte (Single Shot Espresso + Milk + Foam + Hazelnut/Caramel/Greenmint/Vanilla)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Thai Tea (Thai Tea + Condensed Milk + UHT Milk + Creamer)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Thai Green Tea (Thai Tea + Condensed Milk + UHT Milk + Creamer)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Dilmah Tea (English Breakfast/Earl Grey/Blackcurrant/Morocant Mint)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 12000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Chocolate (Cacao + Sugar + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Matcha Latte (Matcha + Sugar + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "kopiReman",
+            "lokasi": "Booth Container",
+            "nama_warung": "Kopi Reman",
+            "deskripsi_warung": "Nikmati berbagai racikan kopi spesial dari kedai kopi reman mulai dari Reman Zilla, Moka, Bundit, hingga Gibaz.",
+            "menu": "Red Velvet (Red Velvet + Sugar + Milk + Foam)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "sotoArema",
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "deskripsi_warung": "Menyediakan aneka soto mulai dari soto daging, soto ayam, hingga soto betawi.",
+            "menu": "Soto Daging",
+            "deskripsi_menu": "Soto  adalah makanan khas Indonesia seperti sop yang terbuat dari kaldu daging, sayuran, dan daging sapi/ayam/jeroan.",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "sotoArema",
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "deskripsi_warung": "Menyediakan aneka soto mulai dari soto daging, soto ayam, hingga soto betawi.",
+            "menu": "Soto Ayam",
+            "kategori": [
+                "Kuah",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "sotoArema",
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "deskripsi_warung": "Menyediakan aneka soto mulai dari soto daging, soto ayam, hingga soto betawi.",
+            "menu": "Soto Betawi",
+            "deskripsi_menu": "Soto Betawi adalah soto khas Betawi yang terdiri dari campuran daging dan jeroan sapi serta kuah santan kental ditambah emping sehingga terasa gurih dan nikmat.",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "sotoArema",
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "deskripsi_warung": "Menyediakan aneka soto mulai dari soto daging, soto ayam, hingga soto betawi.",
+            "menu": "Gorengan",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": 2500
+        },
+        {
+            "id": "sotoArema",
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "deskripsi_warung": "Menyediakan aneka soto mulai dari soto daging, soto ayam, hingga soto betawi.",
+            "menu": "Nasi Putih",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "sotoArema",
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "deskripsi_warung": "Menyediakan aneka soto mulai dari soto daging, soto ayam, hingga soto betawi.",
+            "menu": "Teh Manis (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "sotoArema",
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "deskripsi_warung": "Menyediakan aneka soto mulai dari soto daging, soto ayam, hingga soto betawi.",
+            "menu": "Jeruk (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "sotoArema",
+            "lokasi": "A1",
+            "nama_warung": "Soto Arema",
+            "deskripsi_warung": "Menyediakan aneka soto mulai dari soto daging, soto ayam, hingga soto betawi.",
+            "menu": "Air Mineral",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat yang menggugah selera mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Capcay",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Nasi Goreng",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Mie Tek/Kwietiaw",
+            "kategori": [
+                "Bakmi"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Gado-gado",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Ketoprak",
+            "deskripsi_menu": "Ketoprak merupakan makanan khas Cirebon yang menggunakan ketupat sebagai bahan utamanya.",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Tahu Gimbal",
+            "deskripsi_menu": "Makanan khas Kota Semarang. Makanan ini terdiri dari tahu goreng, rajangan kol mentah, lontong, taoge, telur, dan gimbal, udang yang digoreng dengan tepung, kemudian dicampur dengan bumbu kacang khas yang menggunakan petis udang.",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Pindang/Sop Ikan Pilet",
+            "kategori": [
+                "Kuah",
+                "Ikan"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Soto Mie",
+            "kategori": [
+                "Kuah"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Rawon",
+            "deskripsi_menu": "Masakan khas Ponorogo yang telah ditemukan sejak lebih dari 1000 tahun lalu dan menyebar ke seluruh penjuru Jawa Timur. Rawon berupa sup daging berkuah hitam dengan campuran bumbu khas, kluwek.",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 30000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Sop Daging",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Sop Ayam",
+            "kategori": [
+                "Kuah",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Empal Gentong",
+            "deskripsi_menu": "Makanan khas masyarakat Cirebon yang mirip dengan gulai dan dimasak menggunakan kayu bakar pohon mangga di dalam gentong (periuk tanah liat).",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Tongseng Daging",
+            "deskripsi_menu": "Hidangan gulai daging/ayam berkuah kental dengan bumbu tumisan yang kuat, ditambah sayuran seperti kol, bawang putih, tomat, dan kecap manis ke dalam kuahnya.",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Tongseng Ayam",
+            "deskripsi_menu": "Hidangan gulai daging/ayam berkuah kental dengan bumbu tumisan yang kuat, ditambah sayuran seperti kol, bawang putih, tomat, dan kecap manis ke dalam kuahnya.",
+            "kategori": [
+                "Kuah",
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Ayam Geprek",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Bakso Kuah/Tahu",
+            "kategori": [
+                "Kuah"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "menggugahSelera",
+            "lokasi": "A3",
+            "nama_warung": "Menggugah Selera",
+            "deskripsi_warung": "Menyediakan aneka makanan sehat mulai dari capcay, gado-gado, ketoprak, dan tahu gimbal. Ada pula Nasi goreng dan pindang/sop ikan pelet",
+            "menu": "Tahu Campur",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 23000
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Ayam, Tahu, Telur Opor",
+            "kategori": [
+                "Ayam",
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Ayam Serundeng",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tempe Orek Kering",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tempe Orek Basah",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Kikil",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Kentang Balado",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Ati Ampela Bumbu",
+            "kategori": [
+                "Jeroan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Telor Balado",
+            "deskripsi_menu": "Balado merupakan teknik memasak khas Minangkabau dengan cara menumis cabe giling dengan berbagai rempah, biasanya bawang merah, bawang putih, dan jeruk nipis.",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Telor Dadar",
+            "kategori": [
+                "Telur"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tongkol Balado",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Kembung Pesmol",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Bandeng Presto",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Kerang Tumis",
+            "kategori": [
+                "Ikan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Terong Balado",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tumis Labu Siam",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tumis Buncis",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tumis Toge",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Tumis Capcay",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Aneka Gorengan",
+            "kategori": [
+                "Cemilan"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Mangga",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Strawberry",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Alpukat",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Buah Naga",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Jambu",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Belimbing",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Wortel",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Tomat",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jus Melon",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Minuman Dingin",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "nasiRamesTehWati",
+            "lokasi": "B3",
+            "nama_warung": "Nasi Rames Teh Wati",
+            "deskripsi_warung": "Nasi Rames atau nasi campur adalah salah satu hidangan  yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk yang bebas anda pilih.",
+            "menu": "Jeruk (Es/Hangat)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Nasi Gudeg Krecek",
+            "kategori": [
+                "Nasi"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Nasi Gudeg Krecek Telur",
+            "kategori": "[\"Nasi\",\"Telur\"}\"",
+            "harga": 18000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Bacem Tahu/Tempe",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": "-"
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Tomyam Suki Nasi",
+            "kategori": [
+                "Kuah",
+                "Ikan"
+            ],
+            "harga": 24000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Tongseng Sapi + Nasi",
+            "deskripsi_menu": "Hidangan gulai daging/ayam berkuah kental dengan bumbu tumisan yang kuat, ditambah sayuran seperti kol, bawang putih, tomat, dan kecap manis ke dalam kuahnya.",
+            "kategori": [
+                "Kuah",
+                "Daging"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Es Lemon Tea",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Es Podeng",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Es Teh Manis",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Es Jeruk",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Salad Yoghurt",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Rujak",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "warungJuragan",
+            "lokasi": "C7",
+            "nama_warung": "Warung Juragan",
+            "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
+            "menu": "Buah Potong",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Nasi Rawon",
+            "deskripsi_menu": "Masakan khas Ponorogo yang telah ditemukan sejak lebih dari 1000 tahun lalu dan menyebar ke seluruh penjuru Jawa Timur. Rawon berupa sup daging berkuah hitam dengan campuran bumbu khas, kluwek.",
+            "kategori": [
+                "Nasi",
+                "Kuah"
+            ],
+            "harga": 25000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Tahu Telur Siram Tek",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Salad Siram Bumbu Kacang",
+            "kategori": [
+                "Sayuran"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Bakwan Malang",
+            "kategori": [
+                "Kuah"
+            ],
+            "harga": 18000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Bakso Tahu Bandung",
+            "kategori": [
+                "Kuah"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Ayam Bakar",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Chicken Katsu Sambelan",
+            "kategori": [
+                "Ayam"
+            ],
+            "harga": 20000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Es Teler",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Es Campur",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 15000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Lychee Tea",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Lemon Tea",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "The Tarik",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Nutrisari",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Teh Manis (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Teh Tawar (Es/Panas)",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 3000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Es Jeruk",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 10000
+        },
+        {
+            "id": "warungSiAkang",
+            "lokasi": "B5",
+            "nama_warung": "Warung Si Akang",
+            "deskripsi_warung": "Menyediakan menu rawon, tahu telur, bakwan malang, bakso tahu bandung, hingga chicken katsu.",
+            "menu": "Air Mineral",
+            "kategori": [
+                "Minuman"
+            ],
+            "harga": 5000
+        }
+    ]
+}
