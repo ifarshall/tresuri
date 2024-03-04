@@ -20,25 +20,21 @@
       ribuan = ribuan.join(".").split("").reverse().join("");
       return "Rp " + ribuan;
     }
-
-    async function fetchMenu() {
-      try {
-        const response = await fetch("assets/AllMenu.json");
-        const data = await response.json();
+    
+    fetch("assets/AllMenu.json").then(response => {
+      return response.json();
+    })
+    .then(data => {
         const allMenuLists = data.data;
-
-        allMenuLists.forEach((warung) => {
-          if ("#" + warung.id == menuActive) {
-            listMenu.push(warung);
-          }
+        const listMenu = []; // Inisialisasi listMenu di sini
+        allMenuLists.forEach((warung)=>{
+            console.log(warung.id)
+            if('#'+warung.id == menuActive){
+                listMenu.push(warung)
+            }
         });
-        // console.log('list menu',listMenu)
         showData(listMenu)
-      } catch (error) {
-        console.error("Error fetching JSON:", error);
-      }
-    }
-    fetchMenu();
+    })
 
     function showData(listMenu){
       const menuGrid = document.getElementById("portfolio-grid");
