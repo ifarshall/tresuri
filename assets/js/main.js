@@ -165,7 +165,8 @@
     shuffleArray(tenantLists);
 
     function loadTenant(tenantLists) {
-      if(window.location.pathname == '/index.html'){
+      // console.log(window.location)
+      if(window.location.pathname.includes('index.html')){
         const tenantListsElement = document.getElementById("list-tenant");
         // Mengosongkan isi tenantListsElement sebelum menambahkan tenant baru
         tenantListsElement.innerHTML = "";
