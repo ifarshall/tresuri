@@ -1,7 +1,6 @@
 /* ===================================================================
     
-    Author          : Valid Theme
-    Template Name   : Rescaf - Food & Restauratn Template
+    Author          : Drama Rupa Studio
     Version         : 1.1
     
 * ================================================================= */
