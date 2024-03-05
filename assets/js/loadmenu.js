@@ -15,63 +15,264 @@
 
     function formatRupiah(angka) {
       var reverse = angka.toString().split("").reverse().join(""),
-      ribuan = reverse.match(/\d{1,3}/g);
+        ribuan = reverse.match(/\d{1,3}/g);
       ribuan = ribuan.join(".").split("").reverse().join("");
       return "Rp " + ribuan;
     }
-    
-    fetch("assets/AllMenu.json").then(response => {
-      return response.json();
-    })
-    .then(data => {
+
+    fetch("assets/AllMenu.json")
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
         const allMenuLists = data.data;
         const listMenu = []; // Inisialisasi listMenu di sini
-        allMenuLists.forEach((warung)=>{
-            console.log(warung.id)
-            if('#'+warung.id == menuActive){
-                listMenu.push(warung)
-            }
-        });
-        showData(listMenu)
-    })
-
-    function showData(listMenu){
-      const menuGrid = document.getElementById("portfolio-grid");
-        menuGrid.innerHTML = "";
-
-        listMenu.forEach((menu) => {
-
-          let harga = '';
-          if(menu.harga != '-'){
-            harga = formatRupiah(menu.harga)
-          } else {
-            harga = 'Harga Spesial'
+        allMenuLists.forEach((warung) => {
+          console.log(warung.id);
+          if ("#" + warung.id == menuActive) {
+            listMenu.push(warung);
           }
-          // membuat list
-          const innerHtml = `
-          
-        <div class="item-single">
-          <div class="item">
-              <div class="thumb">
-                  <a href="#" style="display:flex;align-items: center;justify-content: center;">
-                      <img src="assets/img/tenant/${warungActive.foto}" alt="Thumb" style="width:150px;height:150px;max-width:150px;">
-                      <h5>${harga}</h5>
-                  </a>
-              </div>
-              <div class="info">
-                  <h4><a href="#">${menu.menu}</a></h4>
-                  ${menu.deskripsi_menu ? `<p>${menu.deskripsi_menu}</p>` : ""}
-                  <span class="bg-second">${menu.kategori.length > 1 ? menu.kategori.join(' / ') : menu.kategori[0]}</span>
-              </div>
-          </div>
-          <div style="display:flex;justify-content:center;">
-          <hr style="border:1.5px #dcdcdc solid;width:80%;">
-          </div>
-      </div>
-      `;
-          menuGrid.insertAdjacentHTML("beforeend", innerHtml);
         });
+        showData(listMenu);
+      });
+
+    function showData(listMenu) {
+
+      const listMinuman = [];
+      const listMakanan = [];
+
+      // Logika pemisahan makanan dan minuman
+      for (let menu of listMenu) {
+        if (
+          menu.kategori.includes("Minuman") ||
+          menu.kategori.includes("Kopi")
+        ) {
+          listMinuman.push(menu);
+        } else {
+          listMakanan.push(menu);
+        }
+      }
+
+      const menuGrid = document.getElementById("menu-grid");
+      menuGrid.innerHTML = "";
+      // Tambahkan HTML Luar untuk Makanan jika listMakanan tidak kosong
+      if (listMakanan.length > 0) {
+        const makananOuterHtml = `
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center" style="font-weight: 500;">Makanan</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="food-menu-area">
+                            <div class="row">
+                                <div class="col-md-12 text-center food-menu-content">
+                                    <div class="row masonary">
+                                        <div id="portfolio-grid" class="menu-flex col-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+        menuGrid.insertAdjacentHTML("beforeend", makananOuterHtml);
+      }
+
+      // Tambahkan HTML Luar untuk Minuman jika listMinuman tidak kosong
+      if (listMinuman.length > 0) {
+        const minumanOuterHtml = `
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center" style="font-weight: 500;">Minuman</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="food-menu-area">
+                            <div class="row">
+                                <div class="col-md-12 text-center food-menu-content">
+                                    <div class="row masonary">
+                                        <div id="minuman-grid" class="menu-flex col-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+        menuGrid.insertAdjacentHTML("beforeend", minumanOuterHtml);
+      }
+
+      
+      if (listMakanan.length > 0) {
+        const makananGrid = document.getElementById("portfolio-grid");
+        makananGrid.innerHTML = "";
+        addContent(listMakanan, makananGrid);
+      }
+      
+      if (listMinuman.length > 0) {
+        const minumanGrid = document.getElementById("minuman-grid");
+        minumanGrid.innerHTML = "";
+        addContent(listMinuman, minumanGrid);
+      }
     }
+
+
+    function addContent(list, grid) {
+      for (let i = 0; i < list.length; i += 2) {
+        const menu1 = list[i];
+        const menu2 = list[i + 1];
+
+        let harga1 = "";
+        let harga2 = "";
+        if (menu1.harga != "-") {
+          harga1 = formatRupiah(menu1.harga);
+        } else {
+          harga1 = "Harga Spesial";
+        }
+        if (menu2 && menu2.harga != "-") {
+          harga2 = formatRupiah(menu2.harga);
+        } else if (menu2) {
+          harga2 = "Harga Spesial";
+        }
+        const innerHtml = `
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#" style="display:flex;align-items: center;justify-content: center;">
+                                    <img src="assets/img/tenant/${
+                                      warungActive.foto
+                                    }" alt="Thumb" style="width:125px;height:125px;max-width:125px;">
+                                    <h5>${harga1}</h5>
+                                </a>
+                            </div>
+                            <div class="info">
+                                <h4 style="margin-bottom:0;"><a href="#">${
+                                  menu1.menu
+                                }</a></h4>
+                                ${
+                                  menu1.deskripsi_menu
+                                    ? `<p>${menu1.deskripsi_menu}</p>`
+                                    : ""
+                                }
+                                <span class="bg-second">${
+                                  menu1.kategori.length > 1
+                                    ? menu1.kategori.join(" / ")
+                                    : menu1.kategori[0]
+                                }</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        ${
+                          menu2
+                            ? `
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#" style="display:flex;align-items: center;justify-content: center;">
+                                    <img src="assets/img/tenant/${
+                                      warungActive.foto
+                                    }" alt="Thumb" style="width:125px;height:125px;max-width:125px;">
+                                    <h5>${harga2}</h5>
+                                </a>
+                            </div>
+                            <div class="info">
+                                <h4 style="margin-bottom:0;"><a href="#">${
+                                  menu2.menu
+                                }</a></h4>
+                                ${
+                                  menu2.deskripsi_menu
+                                    ? `<p>${menu2.deskripsi_menu}</p>`
+                                    : ""
+                                }
+                                <span class="bg-second">${
+                                  menu2.kategori.length > 1
+                                    ? menu2.kategori.join(" / ")
+                                    : menu2.kategori[0]
+                                }</span>
+                            </div>
+                        </div>
+    
+                        `
+                            : ``
+                        }
+                    </div>
+                </div>
+                <div style="display:flex;justify-content:center;">
+                    <hr style="border:1.5px #dcdcdc solid;width:80%;">
+                </div>
+            `;
+        grid.insertAdjacentHTML("beforeend", innerHtml);
+      }
+    }
+
+    //   function showData(listMenu) {
+    //     const menuGrid = document.getElementById("portfolio-grid");
+    //     const minumanGrid = document.getElementById("minuman-grid");
+
+    //     menuGrid.innerHTML = "";
+    //     minumanGrid.innerHTML = "";
+
+    //     for (let i = 0; i < listMenu.length; i += 2) {
+    //         const menu1 = listMenu[i];
+    //         const menu2 = listMenu[i + 1];
+
+    //         const grid = (menu1.kategori.includes('Minuman') || menu1.kategori.includes('Kopi')) ? minumanGrid : menuGrid;
+
+    //         let harga1 = (menu1.harga != "-") ? formatRupiah(menu1.harga) : "Harga Spesial";
+    //         let harga2 = (menu2 && menu2.harga != "-") ? formatRupiah(menu2.harga) : "Harga Spesial";
+
+    //         const innerHtml = `
+    //             <div class="row">
+    //                 <div class="col-xs-6">
+    //                     <div class="item">
+    //                         <div class="thumb">
+    //                             <a href="#" style="display:flex;align-items: center;justify-content: center;">
+    //                                 <img src="assets/img/tenant/${warungActive.foto}" alt="Thumb" style="width:125px;height:125px;max-width:125px;">
+    //                                 <h5>${harga1}</h5>
+    //                             </a>
+    //                         </div>
+    //                         <div class="info">
+    //                             <h4 style="margin-bottom:0;"><a href="#">${menu1.menu}</a></h4>
+    //                             ${menu1.deskripsi_menu ? `<p>${menu1.deskripsi_menu}</p>` : ""}
+    //                             <span class="bg-second">${menu1.kategori.length > 1 ? menu1.kategori.join(" / ") : menu1.kategori[0]}</span>
+    //                         </div>
+    //                     </div>
+    //                 </div>
+    //                 <div class="col-xs-6">
+    //                     ${menu2 ? `
+    //                     <div class="item">
+    //                         <div class="thumb">
+    //                             <a href="#" style="display:flex;align-items: center;justify-content: center;">
+    //                                 <img src="assets/img/tenant/${warungActive.foto}" alt="Thumb" style="width:125px;height:125px;max-width:125px;">
+    //                                 <h5>${harga2}</h5>
+    //                             </a>
+    //                         </div>
+    //                         <div class="info">
+    //                             <h4 style="margin-bottom:0;"><a href="#">${menu2.menu}</a></h4>
+    //                             ${menu2.deskripsi_menu ? `<p>${menu2.deskripsi_menu}</p>` : ""}
+    //                             <span class="bg-second">${menu2.kategori.length > 1 ? menu2.kategori.join(" / ") : menu2.kategori[0]}</span>
+    //                         </div>
+    //                     </div>
+    //                     ` : ""}
+    //                 </div>
+    //             </div>
+    //             <div style="display:flex;justify-content:center;">
+    //                 <hr style="border:1.5px #dcdcdc solid;width:80%;">
+    //             </div>
+    //         `;
+    //         grid.insertAdjacentHTML("beforeend", innerHtml);
+    //     }
+    // }
 
     const namaWarung = document.getElementById("namaWarung");
     const deskripsiWarung = document.getElementById("deskripsiWarung");
@@ -239,13 +440,13 @@
     });
 
     function filterByCategory(inputText) {
-      const filteredData = listMenu.filter(item => {
-        const regex = new RegExp(inputText, 'i');
-        return item.kategori.some(category => regex.test(category));
+      const filteredData = listMenu.filter((item) => {
+        const regex = new RegExp(inputText, "i");
+        return item.kategori.some((category) => regex.test(category));
         // const lowerInputText = inputText.toLowerCase();
         // return item.kategori.some(category => category.toLowerCase().includes(lowerInputText));
       });
-      
+
       return filteredData;
     }
 
@@ -255,11 +456,11 @@
     searchForm.addEventListener("submit", function (event) {
       event.preventDefault();
       const searchTerm = searchInput.value.trim();
-      if(searchTerm){
+      if (searchTerm) {
         const listNew = filterByCategory(searchTerm);
-        showData(listNew)
+        showData(listNew);
       } else {
-        showData(listMenu)
+        showData(listMenu);
       }
     });
 
@@ -267,7 +468,5 @@
     backButton.addEventListener("click", () => {
       window.location.href = "index.html";
     });
-
-    
   });
 })(jQuery);
