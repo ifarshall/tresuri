@@ -1373,8 +1373,8 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 .banner-area.ds-fonts h2,
 .banner-area.ds-fonts h3,
 .banner-area.ds-fonts h4 {
-  font-family: Dancing Script;
-  font-weight: 700;
+  font-family: 'Poppins';
+  font-weight: 400;
 }
 
 .banner-area.ds-fonts h2 {
@@ -1506,6 +1506,19 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 .banner-area .double-items .content-carousel .owl-dots .owl-dot.active span {
   background: #23578B;
   width: 35px;
+}
+
+.panel-primary {
+  border-top-color: #dcdcdc;
+  border-right-color: #dcdcdc;
+  border-bottom-color: #dcdcdc;
+  border-left-color: #dcdcdc;
+}
+
+.panel-primary>.panel-heading {
+  color: #000;
+  background-color: #dcdcdc;
+  border-color:#dcdcdc;
 }
 
 /* Shape */
