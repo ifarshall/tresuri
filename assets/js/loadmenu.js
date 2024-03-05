@@ -52,9 +52,27 @@
 
       const menuGrid = document.getElementById("menu-grid");
       menuGrid.innerHTML = "";
+      const buttonGrid = document.getElementById("button-grid");
+      buttonGrid.innerHTML = "";
+      const buttonHtml = `
+        <div id="list-button" class="btn-group">
+          ${
+            listMakanan.length > 0
+              ? `<button class="btn btn-primary" id="list-makanan">Makanan</button>`
+              : ``
+          }
+          ${
+            listMinuman.length > 0
+              ? `<button class="btn btn-warning" id="list-minuman">Minuman</button>`
+              : ``
+          }          
+        </div>
+      `;
+      buttonGrid.insertAdjacentHTML("beforeend", buttonHtml);
+
       if (listMakanan.length > 0) {
         const makananOuterHtml = `
-        <div class="panel panel-primary">
+        <div id="panel-makanan" class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title text-center" style="font-weight: 500;">Makanan</h3>
             </div>
@@ -77,11 +95,20 @@
         </div>
     `;
         menuGrid.insertAdjacentHTML("beforeend", makananOuterHtml);
+        document
+          .getElementById("list-makanan")
+          .addEventListener("click", () => {
+            const targetMakanan = document.getElementById("panel-makanan");
+            targetMakanan.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          });
       }
 
       if (listMinuman.length > 0) {
         const minumanOuterHtml = `
-        <div class="panel panel-primary">
+        <div id="panel-minuman" class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title text-center" style="font-weight: 500;">Minuman</h3>
             </div>
@@ -104,6 +131,15 @@
         </div>
     `;
         menuGrid.insertAdjacentHTML("beforeend", minumanOuterHtml);
+        document
+          .getElementById("list-minuman")
+          .addEventListener("click", () => {
+            const targetMinuman = document.getElementById("panel-minuman");
+            targetMinuman.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          });
       }
 
       if (listMakanan.length > 0) {
@@ -376,7 +412,10 @@
     function filterByCategory(inputText) {
       const filteredData = listMenu.filter((item) => {
         const regex = new RegExp(inputText, "i");
-        return regex.test(item.menu) || item.kategori.some((category) => regex.test(category));
+        return (
+          regex.test(item.menu) ||
+          item.kategori.some((category) => regex.test(category))
+        );
       });
       return filteredData;
     }
@@ -389,10 +428,8 @@
       const searchTerm = searchInput.value.trim();
       if (searchTerm) {
         const listNew = filterByCategory(searchTerm);
-        console.log('listnew',listNew)
         showData(listNew);
       } else {
-        console.log('listmenu',listMenu)
         showData(listMenu);
       }
     });

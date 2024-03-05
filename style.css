@@ -2567,6 +2567,33 @@ img.highlight-food {
   width: 40px;
 }
 
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  background: #23578B;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  display: none;
+  z-index: 99999;
+  border-radius: 50%;
+}
+@media screen and (min-width: 576px) {
+  .scrollToTop {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size:25px;
+  }
+}
+.scrollToTop:hover {
+  color: #fce7e9;
+}
+
 .menu-lists .video-play-button {
   height: 40px;
   width: 40px;

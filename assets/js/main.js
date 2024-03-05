@@ -8,6 +8,25 @@
 (function ($) {
   "use strict";
 
+  // scrollToTop
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $('.scrollToTop').fadeIn();
+    } else {
+      $('.scrollToTop').fadeOut();
+    }
+  });
+  //Click event to scroll to top
+  $('.scrollToTop').click(function () {
+    $('html, body').animate(
+      {
+        scrollTop: 0,
+      },
+      800
+    );
+    return false;
+  });
+
   $(document).on("ready", function () {
 
     const tenantLists = [
@@ -368,6 +387,8 @@
             Nice Select Init
          ===============================================*/
     $("select").niceSelect();
+
+    
 
   }); // end document ready function
 })(jQuery); // End jQuery
