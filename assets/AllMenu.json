@@ -2621,7 +2621,7 @@
             "nama_warung": "Warung Juragan",
             "deskripsi_warung": "Menyediakan gudeg khas Jogja hingga tomyam khas negeri gajah putih, dan buah-buahan.",
             "menu": "Nasi Gudeg Krecek Telur",
-            "kategori": "[\"Nasi\",\"Telur\"}\"",
+            "kategori": ["Nasi","Telur"],
             "harga": 18000
         },
         {
