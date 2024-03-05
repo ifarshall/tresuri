@@ -336,6 +336,10 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+  .banner-style{
+    height: 40svh;
+  }
+
   /* Heading */
   h1 {
     font-size: 30px;

@@ -2587,7 +2587,7 @@ img.highlight-food {
   text-align: center;
   color: #fff;
   font-size: 25px;
-  background: #23578B;
+  background: #F7A832;
   position: fixed;
   right: 20px;
   bottom: 50px;
@@ -2604,6 +2604,10 @@ img.highlight-food {
   }
 }
 .scrollToTop:hover {
+  color: #fce7e9;
+}
+
+.scrollToTop a:hover {
   color: #fce7e9;
 }
 
@@ -2664,9 +2668,9 @@ img.highlight-food {
 }
 
 .banner-style{
-  background-color: #23578B;
-  background-image: url("assets/img/pattern.svg");
-  background-size:auto;
+  /* background-color: #23578B; */
+  background-image: url("assets/img/banner_foto.webp");
+  background-size:cover;
   height: 50svh;
   display:flex;
   align-items: center;
