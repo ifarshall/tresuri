@@ -427,6 +427,8 @@
               namaWarungRandom.textContent = menuRandom.nama_warung;
               const deskripsiWarungRandom = document.getElementById('deskripsiWarungRandom');
               deskripsiWarungRandom.textContent = menuRandom.deskripsi_warung;
+              const lokasiWarungRandom = document.getElementById('lokasiWarungRandom');
+              lokasiWarungRandom.textContent = menuRandom.lokasi;
               const menuLists = [];
               for(let menu of allMenuLists){
                 if(menu.nama_warung == menuRandom.nama_warung){
@@ -448,6 +450,7 @@
           
               const searchMenuForm = document.getElementById("searchMenuForm");
               const searchMenuInput = document.getElementById("searchMenuInput");
+              searchMenuInput.placeholder = 'Cari menu pada ' + menuRandom.nama_warung;
           
               searchMenuForm.addEventListener("submit", function (event) {
                 event.preventDefault();

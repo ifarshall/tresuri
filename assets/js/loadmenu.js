@@ -244,6 +244,7 @@
 
     const namaWarung = document.getElementById("namaWarung");
     const deskripsiWarung = document.getElementById("deskripsiWarung");
+    const lokasiWarung = document.getElementById("lokasiWarung");
     const tenantLists = [
       {
         lokasi: "A1",
@@ -402,6 +403,7 @@
       if ("#" + tenant.idWarung == menuActive) {
         namaWarung.innerText = tenant.nama_warung;
         deskripsiWarung.innerText = tenant.deskripsi_warung;
+        lokasiWarung.innerText = tenant.lokasi;
         warungActive = tenant;
         return;
       }
