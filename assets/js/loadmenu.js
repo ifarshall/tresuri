@@ -37,8 +37,6 @@
     function showData(listMenu) {
       const listMinuman = [];
       const listMakanan = [];
-
-      // Logika pemisahan makanan dan minuman
       for (let menu of listMenu) {
         if (
           menu.kategori.includes("Minuman") ||

@@ -11,14 +11,14 @@
   // scrollToTop
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
-      $('.scrollToTop').fadeIn();
+      $(".scrollToTop").fadeIn();
     } else {
-      $('.scrollToTop').fadeOut();
+      $(".scrollToTop").fadeOut();
     }
   });
   //Click event to scroll to top
-  $('.scrollToTop').click(function () {
-    $('html, body').animate(
+  $(".scrollToTop").click(function () {
+    $("html, body").animate(
       {
         scrollTop: 0,
       },
@@ -28,7 +28,6 @@
   });
 
   $(document).on("ready", function () {
-
     const tenantLists = [
       {
         lokasi: "A1",
@@ -168,7 +167,7 @@
 
     function formatRupiah(angka) {
       var reverse = angka.toString().split("").reverse().join(""),
-      ribuan = reverse.match(/\d{1,3}/g);
+        ribuan = reverse.match(/\d{1,3}/g);
       ribuan = ribuan.join(".").split("").reverse().join("");
       return "Rp " + ribuan;
     }
@@ -182,21 +181,300 @@
 
     shuffleArray(tenantLists);
 
+    function showData(listMenu) {
+      const listMinuman = [];
+      const listMakanan = [];
+
+      // Logika pemisahan makanan dan minuman
+      for (let menu of listMenu) {
+        if (
+          menu.kategori.includes("Minuman") ||
+          menu.kategori.includes("Kopi")
+        ) {
+          listMinuman.push(menu);
+        } else {
+          listMakanan.push(menu);
+        }
+      }
+
+      const menuGrid = document.getElementById("menu-grid");
+      menuGrid.innerHTML = "";
+      const buttonGrid = document.getElementById("button-grid");
+      buttonGrid.innerHTML = "";
+      const buttonHtml = `
+        <div id="list-button" class="btn-group">
+          ${
+            listMakanan.length > 0
+              ? `<button class="btn btn-primary" id="list-makanan">Makanan</button>`
+              : ``
+          }
+          ${
+            listMinuman.length > 0
+              ? `<button class="btn btn-warning" id="list-minuman">Minuman</button>`
+              : ``
+          }          
+        </div>
+      `;
+      buttonGrid.insertAdjacentHTML("beforeend", buttonHtml);
+
+      if (listMakanan.length > 0) {
+        const makananOuterHtml = `
+        <div id="panel-makanan" class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center" style="font-weight: 500;">Makanan</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="food-menu-area">
+                            <div class="row">
+                                <div class="col-md-12 text-center food-menu-content">
+                                    <div class="row masonary">
+                                        <div id="portfolio-grid" class="menu-flex col-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+        menuGrid.insertAdjacentHTML("beforeend", makananOuterHtml);
+        document
+          .getElementById("list-makanan")
+          .addEventListener("click", () => {
+            const targetMakanan = document.getElementById("panel-makanan");
+            targetMakanan.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          });
+      }
+
+      if (listMinuman.length > 0) {
+        const minumanOuterHtml = `
+        <div id="panel-minuman" class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center" style="font-weight: 500;">Minuman</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="food-menu-area">
+                            <div class="row">
+                                <div class="col-md-12 text-center food-menu-content">
+                                    <div class="row masonary">
+                                        <div id="minuman-grid" class="menu-flex col-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+        menuGrid.insertAdjacentHTML("beforeend", minumanOuterHtml);
+        document
+          .getElementById("list-minuman")
+          .addEventListener("click", () => {
+            const targetMinuman = document.getElementById("panel-minuman");
+            targetMinuman.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          });
+      }
+
+      if (listMakanan.length > 0) {
+        const makananGrid = document.getElementById("portfolio-grid");
+        makananGrid.innerHTML = "";
+        addContent(listMakanan, makananGrid);
+      }
+
+      if (listMinuman.length > 0) {
+        const minumanGrid = document.getElementById("minuman-grid");
+        minumanGrid.innerHTML = "";
+        addContent(listMinuman, minumanGrid);
+      }
+    }
+
+    function addContent(list, grid) {
+      for (let i = 0; i < list.length; i += 2) {
+        const menu1 = list[i];
+        const menu2 = list[i + 1];
+
+        let harga1 = "";
+        let harga2 = "";
+        if (menu1.harga != "-") {
+          harga1 = formatRupiah(menu1.harga);
+        } else {
+          harga1 = "Harga Spesial";
+        }
+        if (menu2 && menu2.harga != "-") {
+          harga2 = formatRupiah(menu2.harga);
+        } else if (menu2) {
+          harga2 = "Harga Spesial";
+        }
+        const warungActive1 = tenantLists.find(obj => obj.nama_warung === menu1.nama_warung);
+        let warungActive2 = {};
+        if(menu2){
+          warungActive2 = tenantLists.find(obj => obj.nama_warung === menu2.nama_warung);
+        }
+        const innerHtml = `
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#" style="display:flex;align-items: center;justify-content: center;">
+                                    <img src="assets/img/tenant/${
+                                      warungActive1.foto
+                                    }" alt="Thumb" style="width:125px;height:125px;max-width:125px;">
+                                    <h5>${harga1}</h5>
+                                </a>
+                            </div>
+                            <div class="info">
+                                <h4 style="margin-bottom:0;"><a href="#">${
+                                  menu1.menu
+                                }</a></h4>
+                                ${
+                                  menu1.deskripsi_menu
+                                    ? `<p>${menu1.deskripsi_menu}</p>`
+                                    : ""
+                                }
+                                <span class="bg-second">${
+                                  menu1.kategori.length > 1
+                                    ? menu1.kategori.join(" / ")
+                                    : menu1.kategori[0]
+                                }</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        ${
+                          menu2
+                            ? `
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#" style="display:flex;align-items: center;justify-content: center;">
+                                    <img src="assets/img/tenant/${
+                                      warungActive2.foto
+                                    }" alt="Thumb" style="width:125px;height:125px;max-width:125px;">
+                                    <h5>${harga2}</h5>
+                                </a>
+                            </div>
+                            <div class="info">
+                                <h4 style="margin-bottom:0;"><a href="#">${
+                                  menu2.menu
+                                }</a></h4>
+                                ${
+                                  menu2.deskripsi_menu
+                                    ? `<p>${menu2.deskripsi_menu}</p>`
+                                    : ""
+                                }
+                                <span class="bg-second">${
+                                  menu2.kategori.length > 1
+                                    ? menu2.kategori.join(" / ")
+                                    : menu2.kategori[0]
+                                }</span>
+                            </div>
+                        </div>
+    
+                        `
+                            : ``
+                        }
+                    </div>
+                </div>
+                <div style="display:flex;justify-content:center;">
+                    <hr style="border:1.5px #dcdcdc solid;width:80%;">
+                </div>
+            `;
+        grid.insertAdjacentHTML("beforeend", innerHtml);
+      }
+    }
+
     function loadTenant(tenantLists) {
-      if(window.location.pathname.includes('index.html')|| window.location.pathname === '/'){
+      if (
+        window.location.pathname.includes("index.html") ||
+        window.location.pathname === "/"
+      ) {
         const tenantListsElement = document.getElementById("list-tenant");
-        // Mengosongkan isi tenantListsElement sebelum menambahkan tenant baru
         tenantListsElement.innerHTML = "";
-  
-  
+
+        fetch("assets/AllMenu.json")
+          .then((response) => {
+            return response.json();
+          })
+          .then((data) => {
+            const allMenuLists = data.data;
+            const lastGeneratedDate = localStorage.getItem('lastGeneratedDate');
+            const currentDate = new Date().toLocaleDateString();
+            let randomNumber;
+            if (!lastGeneratedDate || lastGeneratedDate !== currentDate) {
+              randomNumber = Math.floor(
+                Math.random() * allMenuLists.length
+              );
+              localStorage.setItem('lastGeneratedDate',currentDate)
+            } else {
+              randomNumber = parseInt(localStorage.getItem('lastGeneratedDate'))
+            }
+            const menuRandom = allMenuLists[randomNumber];
+            if(menuRandom){
+              const namaWarungRandom = document.getElementById('namaWarungRandom');
+              namaWarungRandom.textContent = menuRandom.nama_warung;
+              const deskripsiWarungRandom = document.getElementById('deskripsiWarungRandom');
+              deskripsiWarungRandom.textContent = menuRandom.deskripsi_warung;
+              const menuLists = [];
+              for(let menu of allMenuLists){
+                if(menu.nama_warung == menuRandom.nama_warung){
+                  menuLists.push(menu);
+                }
+              }
+              showData(menuLists);
+
+              function filterByCategory(inputText) {
+                const filteredData = menuLists.filter((item) => {
+                  const regex = new RegExp(inputText, "i");
+                  return (
+                    regex.test(item.menu) ||
+                    item.kategori.some((category) => regex.test(category))
+                  );
+                });
+                return filteredData;
+              }
+          
+              const searchMenuForm = document.getElementById("searchMenuForm");
+              const searchMenuInput = document.getElementById("searchMenuInput");
+          
+              searchMenuForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+                const searchTerm = searchMenuInput.value.trim();
+                if (searchTerm) {
+                  const listNew = filterByCategory(searchTerm);
+                  showData(listNew);
+                } else {
+                  showData(menuLists);
+                }
+              });
+            }
+          });
+
+          
+
         // Memuat ulang daftar tenant yang telah difilter
         tenantLists.forEach((tenant) => {
           const minHarga = formatRupiah(tenant.min);
           const maxHarga = formatRupiah(tenant.max);
-          const id = (tenant.nama_warung).toLowerCase().replace(/\s+/g, '_');
-          let warungPage = (tenant.nama_warung).replace(/\s+(\w)/g, function(match, firstLetter) {
-            return firstLetter.toUpperCase();
-          });
+          const id = tenant.nama_warung.toLowerCase().replace(/\s+/g, "_");
+          let warungPage = tenant.nama_warung.replace(
+            /\s+(\w)/g,
+            function (match, firstLetter) {
+              return firstLetter.toUpperCase();
+            }
+          );
           // Huruf pertama tetap huruf kecil
           warungPage = warungPage.charAt(0).toLowerCase() + warungPage.slice(1);
           const itemHTML = `
@@ -216,7 +494,9 @@
                             </div>
                         </div>
                         <div class="info">
-                            <h4><a href="menu.html#${warungPage}">${tenant.nama_warung}</a></h4>
+                            <h4><a href="menu.html#${warungPage}">${
+            tenant.nama_warung
+          }</a></h4>
                             <p>
                               ${tenant.deskripsi_warung}
                             </p>
@@ -232,20 +512,29 @@
         const searchForm = document.getElementById("searchForm");
         const searchInput = document.getElementById("searchInput");
 
-        searchForm.addEventListener("submit", function (event) {
-          event.preventDefault();
+        searchForm.addEventListener(
+          "submit",
+          function (event) {
+            event.preventDefault();
 
-          const searchTerm = searchInput.value.trim();
-          if(searchTerm){
-            // tenantCarousel.owlcarousel2_filter(`.${searchTerm}`)
-            const regex = new RegExp(searchTerm, 'i');
-            const filteredItems = tenantLists.filter(tenant => regex.test(tenant.nama_warung.toLowerCase()));
-            const filteredIds = filteredItems.map(item => `.${item.nama_warung.toLowerCase().replace(/\s+/g, '_')}`);
-            tenantCarousel.owlcarousel2_filter(filteredIds.join(','));
-          } else {
-            tenantCarousel.owlcarousel2_filter('*')
-          }
-        },{passive:false});
+            const searchTerm = searchInput.value.trim();
+            if (searchTerm) {
+              // tenantCarousel.owlcarousel2_filter(`.${searchTerm}`)
+              const regex = new RegExp(searchTerm, "i");
+              const filteredItems = tenantLists.filter((tenant) =>
+                regex.test(tenant.nama_warung.toLowerCase())
+              );
+              const filteredIds = filteredItems.map(
+                (item) =>
+                  `.${item.nama_warung.toLowerCase().replace(/\s+/g, "_")}`
+              );
+              tenantCarousel.owlcarousel2_filter(filteredIds.join(","));
+            } else {
+              tenantCarousel.owlcarousel2_filter("*");
+            }
+          },
+          { passive: false }
+        );
       }
     }
 
@@ -330,7 +619,6 @@
         $(".equal-height").equalHeights();
       });
 
-
     /* ==================================================
             # Food Menu Carousel
          ===============================================*/
@@ -356,8 +644,6 @@
         },
       },
     });
-
-    
 
     /* ==================================================
             # Banner Carousel
@@ -387,8 +673,5 @@
             Nice Select Init
          ===============================================*/
     $("select").niceSelect();
-
-    
-
   }); // end document ready function
 })(jQuery); // End jQuery
