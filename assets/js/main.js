@@ -330,9 +330,11 @@
                         <div class="item">
                             <div class="thumb">
                                 <a href="#" style="display:flex;align-items: center;justify-content: center;">
-                                    <img src="assets/img/tenant/${
-                                      warungActive1.foto
-                                    }" alt="Thumb" style="width:125px;height:125px;max-width:125px;">
+                                    <img src="assets/img/tenant/menu/${
+                                      menu1.menu
+                                    }.webp" alt="Thumb" style="width:125px;height:125px;max-width:125px;object-fit:cover;object-position: center;"
+                                    onerror="this.src='assets/img/tenant/${warungActive1.foto}'
+                                    ">
                                     <h5>${harga1}</h5>
                                 </a>
                             </div>
@@ -360,9 +362,11 @@
                         <div class="item">
                             <div class="thumb">
                                 <a href="#" style="display:flex;align-items: center;justify-content: center;">
-                                    <img src="assets/img/tenant/${
-                                      warungActive2.foto
-                                    }" alt="Thumb" style="width:125px;height:125px;max-width:125px;">
+                                  <img src="assets/img/tenant/menu/${
+                                    menu2.menu
+                                  }.webp" alt="Thumb" style="width:125px;height:125px;max-width:125px;object-fit:cover;object-position: center;"
+                                  onerror="this.src='assets/img/tenant/${warungActive2.foto}'
+                                  ">
                                     <h5>${harga2}</h5>
                                 </a>
                             </div>
